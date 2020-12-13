@@ -1,0 +1,210 @@
+{
+  "uid" : "bffe9591caa68e71",
+  "name" : "should click on watch the story button and video should run",
+  "fullName" : "Volvo Car Safety.should click on watch the story button and video should run",
+  "historyId" : "a38e2a40bc8f90dec7110172fc26b7e6",
+  "time" : {
+    "start" : 1607888060580,
+    "stop" : 1607888070110,
+    "duration" : 9530
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607888060581,
+        "stop" : 1607888060752,
+        "duration" : 171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6698688185eec224",
+        "name" : "Request",
+        "source" : "6698688185eec224.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "3d9caef17f98adad",
+        "name" : "Response",
+        "source" : "3d9caef17f98adad.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1607888060790,
+        "stop" : 1607888060912,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "300f807fbc2f1083",
+        "name" : "Request",
+        "source" : "300f807fbc2f1083.json",
+        "type" : "application/json",
+        "size" : 296
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607888060913,
+        "stop" : 1607888060951,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f54dcf2b6f09673f",
+        "name" : "Request",
+        "source" : "f54dcf2b6f09673f.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "e35a3b863325ac4d",
+        "name" : "Response",
+        "source" : "e35a3b863325ac4d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607888060954,
+        "stop" : 1607888061142,
+        "duration" : 188
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e43b9c9cac99609a",
+        "name" : "Request",
+        "source" : "e43b9c9cac99609a.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "294671b2d68f2dcb",
+        "name" : "Response",
+        "source" : "294671b2d68f2dcb.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607888061149,
+        "stop" : 1607888061505,
+        "duration" : 356
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6bb79c60e8f2d8c3",
+        "name" : "Request",
+        "source" : "6bb79c60e8f2d8c3.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "23e9da609f6a8bb6",
+        "name" : "Response",
+        "source" : "23e9da609f6a8bb6.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/f252b1c5-1bd3-4938-b30a-79206491c116/click",
+      "time" : {
+        "start" : 1607888061516,
+        "stop" : 1607888062108,
+        "duration" : 592
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo Car Safety"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo Car Safety"
+  }, {
+    "name" : "testMethod",
+    "value" : "should click on watch the story button and video should run"
+  }, {
+    "name" : "package",
+    "value" : "Volvo Car Safety"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-83.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bffe9591caa68e71.json",
+  "parameterValues" : [ "firefox-83.0" ]
+}

@@ -1,0 +1,156 @@
+{
+  "uid" : "3f3f7235265aa458",
+  "name" : "should allow privacy Setting",
+  "fullName" : "Open the url.should allow privacy Setting",
+  "historyId" : "6dc0af553e057939ca11a2f30af5badc",
+  "time" : {
+    "start" : 1607856393955,
+    "stop" : 1607856400157,
+    "duration" : 6202
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607856393957,
+        "stop" : 1607856393992,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "161f00a43eafa6be",
+        "name" : "Request",
+        "source" : "161f00a43eafa6be.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "a3a939d20821098",
+        "name" : "Response",
+        "source" : "a3a939d20821098.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607856393998,
+        "stop" : 1607856394036,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d84ddb611a0a854a",
+        "name" : "Request",
+        "source" : "d84ddb611a0a854a.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "f601c41c0ef7e3a",
+        "name" : "Response",
+        "source" : "f601c41c0ef7e3a.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/0498739c-f404-4bbe-8ee9-0876ceef5304/click",
+      "time" : {
+        "start" : 1607856397039,
+        "stop" : 1607856397146,
+        "duration" : 107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1607856397146,
+        "stop" : 1607856397156,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7a59085236acfcf1",
+        "name" : "Response",
+        "source" : "7a59085236acfcf1.json",
+        "type" : "application/json",
+        "size" : 29
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open the url"
+  }, {
+    "name" : "testClass",
+    "value" : "Open the url"
+  }, {
+    "name" : "testMethod",
+    "value" : "should allow privacy Setting"
+  }, {
+    "name" : "package",
+    "value" : "Open the url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f3f7235265aa458.json",
+  "parameterValues" : [ "chrome-88.0.4324.41" ]
+}

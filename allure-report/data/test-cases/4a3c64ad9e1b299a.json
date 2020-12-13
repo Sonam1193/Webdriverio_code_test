@@ -1,0 +1,231 @@
+{
+  "uid" : "4a3c64ad9e1b299a",
+  "name" : "should verify the hyperlink and navigate to that link page",
+  "fullName" : "Volvo Car Safety.should verify the hyperlink and navigate to that link page",
+  "historyId" : "997818c75390377c3e1fbca23d5e5f1a",
+  "time" : {
+    "start" : 1607877604872,
+    "stop" : 1607877605735,
+    "duration" : 863
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607877604872,
+        "stop" : 1607877604886,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a58abbbccd2008f5",
+        "name" : "Request",
+        "source" : "a58abbbccd2008f5.json",
+        "type" : "application/json",
+        "size" : 153
+      }, {
+        "uid" : "660030eed754fcca",
+        "name" : "Response",
+        "source" : "660030eed754fcca.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1607877604889,
+        "stop" : 1607877604906,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "581eb20b86324328",
+        "name" : "Request",
+        "source" : "581eb20b86324328.json",
+        "type" : "application/json",
+        "size" : 296
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607877604906,
+        "stop" : 1607877604923,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "da29c8466fce6462",
+        "name" : "Request",
+        "source" : "da29c8466fce6462.json",
+        "type" : "application/json",
+        "size" : 153
+      }, {
+        "uid" : "512991a49888333b",
+        "name" : "Response",
+        "source" : "512991a49888333b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607877604926,
+        "stop" : 1607877604941,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "be979d89cb0e1b11",
+        "name" : "Request",
+        "source" : "be979d89cb0e1b11.json",
+        "type" : "application/json",
+        "size" : 153
+      }, {
+        "uid" : "499b220233439a5a",
+        "name" : "Response",
+        "source" : "499b220233439a5a.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607877604945,
+        "stop" : 1607877604959,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5defa9f89f9802db",
+        "name" : "Request",
+        "source" : "5defa9f89f9802db.json",
+        "type" : "application/json",
+        "size" : 122
+      }, {
+        "uid" : "d4adeabdfc891191",
+        "name" : "Response",
+        "source" : "d4adeabdfc891191.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/0832e578-f630-4428-b223-cc49f57dd58b/click",
+      "time" : {
+        "start" : 1607877604966,
+        "stop" : 1607877605729,
+        "duration" : 763
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1607877605730,
+        "stop" : 1607877605734,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f429440d11dfa46b",
+        "name" : "Response",
+        "source" : "f429440d11dfa46b.json",
+        "type" : "application/json",
+        "size" : 25
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo Car Safety"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo Car Safety"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify the hyperlink and navigate to that link page"
+  }, {
+    "name" : "package",
+    "value" : "Volvo Car Safety"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-83.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4a3c64ad9e1b299a.json",
+  "parameterValues" : [ "firefox-83.0" ]
+}

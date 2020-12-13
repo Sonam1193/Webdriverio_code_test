@@ -1,0 +1,216 @@
+{
+  "uid" : "6dcc66e288e34a03",
+  "name" : "should verify the text \"A million more. With new and existing safety features, we are determined to save a million more lives.\"",
+  "fullName" : "Volvo Car Safety.should verify the text \"A million more. With new and existing safety features, we are determined to save a million more lives.\"",
+  "historyId" : "62fadc46b81fd64af005ef4c3c3eb355",
+  "time" : {
+    "start" : 1607888953357,
+    "stop" : 1607888954262,
+    "duration" : 905
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607888953359,
+        "stop" : 1607888953422,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ced00ed51e7f635f",
+        "name" : "Request",
+        "source" : "ced00ed51e7f635f.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "e44c33847d6cb446",
+        "name" : "Response",
+        "source" : "e44c33847d6cb446.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/54ddca75-751f-44cf-bd2a-4fd6a14fabcc/displayed",
+      "time" : {
+        "start" : 1607888953427,
+        "stop" : 1607888953537,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cb121cd288228d2e",
+        "name" : "Response",
+        "source" : "cb121cd288228d2e.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607888953540,
+        "stop" : 1607888953598,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "38eaf48db603af18",
+        "name" : "Request",
+        "source" : "38eaf48db603af18.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "20ed171b7d948638",
+        "name" : "Response",
+        "source" : "20ed171b7d948638.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1607888953618,
+        "stop" : 1607888953646,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e3fbdd2a706bb902",
+        "name" : "Request",
+        "source" : "e3fbdd2a706bb902.json",
+        "type" : "application/json",
+        "size" : 296
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607888953646,
+        "stop" : 1607888953701,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5df21cde802322e0",
+        "name" : "Request",
+        "source" : "5df21cde802322e0.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "3a2e555fbfff79e0",
+        "name" : "Response",
+        "source" : "3a2e555fbfff79e0.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607888953707,
+        "stop" : 1607888954256,
+        "duration" : 549
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "753e10a65c269d0c",
+        "name" : "Request",
+        "source" : "753e10a65c269d0c.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "1cb4c4324c5e070b",
+        "name" : "Response",
+        "source" : "1cb4c4324c5e070b.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo Car Safety"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo Car Safety"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify the text \"A million more. With new and existing safety features, we are determined to save a million more lives.\""
+  }, {
+    "name" : "package",
+    "value" : "Volvo Car Safety"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-83.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6dcc66e288e34a03.json",
+  "parameterValues" : [ "firefox-83.0" ]
+}

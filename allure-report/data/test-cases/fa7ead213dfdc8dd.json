@@ -1,0 +1,162 @@
+{
+  "uid" : "fa7ead213dfdc8dd",
+  "name" : "should verify the text \"A million more. With new and existing safety features, we are determined to save a million more lives.\"",
+  "fullName" : "Open the url.should verify the text \"A million more. With new and existing safety features, we are determined to save a million more lives.\"",
+  "historyId" : "d046a5b7fdf9cb2d05bb897126834427",
+  "time" : {
+    "start" : 1607866351631,
+    "stop" : 1607866351745,
+    "duration" : 114
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607866351632,
+        "stop" : 1607866351651,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d1e8b832fb00a2c",
+        "name" : "Request",
+        "source" : "5d1e8b832fb00a2c.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "17f42225635e493a",
+        "name" : "Response",
+        "source" : "17f42225635e493a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/f54b0c30-73cf-45da-a47a-a90cdd10b9cc/displayed",
+      "time" : {
+        "start" : 1607866351656,
+        "stop" : 1607866351682,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2841b551c88244a4",
+        "name" : "Response",
+        "source" : "2841b551c88244a4.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607866351682,
+        "stop" : 1607866351705,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1fea26ef4bf8579c",
+        "name" : "Request",
+        "source" : "1fea26ef4bf8579c.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "7d8bb1d39fa30f39",
+        "name" : "Response",
+        "source" : "7d8bb1d39fa30f39.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1607866351710,
+        "stop" : 1607866351742,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "77e4873b0f76e620",
+        "name" : "Request",
+        "source" : "77e4873b0f76e620.json",
+        "type" : "application/json",
+        "size" : 296
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open the url"
+  }, {
+    "name" : "testClass",
+    "value" : "Open the url"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify the text \"A million more. With new and existing safety features, we are determined to save a million more lives.\""
+  }, {
+    "name" : "package",
+    "value" : "Open the url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-83.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fa7ead213dfdc8dd.json",
+  "parameterValues" : [ "firefox-83.0" ]
+}

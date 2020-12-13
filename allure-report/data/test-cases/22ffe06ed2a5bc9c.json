@@ -1,0 +1,167 @@
+{
+  "uid" : "22ffe06ed2a5bc9c",
+  "name" : "should click cars navigation button ",
+  "fullName" : "Open the url.should click cars navigation button ",
+  "historyId" : "7605da4142519eca2146e4e5f7d020a6",
+  "time" : {
+    "start" : 1607869054423,
+    "stop" : 1607869054494,
+    "duration" : 71
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Element <button class=\"_SiteNav-a _SiteNav-af _SiteNav-bi _SiteNav-bj _SiteNav-bk _SiteNav-bl _SiteNav-bm _SiteNav-bn _SiteNav-bo _SiteNav-bp _SiteNav-bq _SiteNav-br _SiteNav-bs _SiteNav-bt _SiteNav-bu _SiteNav-bv _SiteNav-bw _SiteNav-bx _SiteNav-by _SiteNav-bz _SiteNav-l\" type=\"button\"> is not clickable at point (1129,32) because another element <div class=\"optanon-alert-box-bottom-top\"> obscures it",
+  "statusTrace" : "element click intercepted: Element <button class=\"_SiteNav-a _SiteNav-af _SiteNav-bi _SiteNav-bj _SiteNav-bk _SiteNav-bl _SiteNav-bm _SiteNav-bn _SiteNav-bo _SiteNav-bp _SiteNav-bq _SiteNav-br _SiteNav-bs _SiteNav-bt _SiteNav-bu _SiteNav-bv _SiteNav-bw _SiteNav-bx _SiteNav-by _SiteNav-bz _SiteNav-l\" type=\"button\"> is not clickable at point (1129,32) because another element <div class=\"optanon-alert-box-bottom-top\"> obscures it\n                    at getErrorFromResponseBody (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriver\\build\\utils.js:121:10)\n                    at WebDriverRequest._request (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriver\\build\\request.js:149:56)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriverio\\build\\middlewares.js:21:24)\n                    at Element.runCommandWithHooks (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Element.runCommandWithHooks (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.click (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at Context.<anonymous> (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\specs\\/subscribe.js:48:30)\n                    at Context.executeSync (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Element <button class=\"_SiteNav-a _SiteNav-af _SiteNav-bi _SiteNav-bj _SiteNav-bk _SiteNav-bl _SiteNav-bm _SiteNav-bn _SiteNav-bo _SiteNav-bp _SiteNav-bq _SiteNav-br _SiteNav-bs _SiteNav-bt _SiteNav-bu _SiteNav-bv _SiteNav-bw _SiteNav-bx _SiteNav-by _SiteNav-bz _SiteNav-l\" type=\"button\"> is not clickable at point (1129,32) because another element <div class=\"optanon-alert-box-bottom-top\"> obscures it",
+    "statusTrace" : "element click intercepted: Element <button class=\"_SiteNav-a _SiteNav-af _SiteNav-bi _SiteNav-bj _SiteNav-bk _SiteNav-bl _SiteNav-bm _SiteNav-bn _SiteNav-bo _SiteNav-bp _SiteNav-bq _SiteNav-br _SiteNav-bs _SiteNav-bt _SiteNav-bu _SiteNav-bv _SiteNav-bw _SiteNav-bx _SiteNav-by _SiteNav-bz _SiteNav-l\" type=\"button\"> is not clickable at point (1129,32) because another element <div class=\"optanon-alert-box-bottom-top\"> obscures it\n                    at getErrorFromResponseBody (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriver\\build\\utils.js:121:10)\n                    at WebDriverRequest._request (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriver\\build\\request.js:149:56)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriverio\\build\\middlewares.js:21:24)\n                    at Element.runCommandWithHooks (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Element.runCommandWithHooks (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.click (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at Context.<anonymous> (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\specs\\/subscribe.js:48:30)\n                    at Context.executeSync (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607869054423,
+        "stop" : 1607869054434,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "659de3c5a17c610d",
+        "name" : "Request",
+        "source" : "659de3c5a17c610d.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "c10022d802d0f273",
+        "name" : "Response",
+        "source" : "c10022d802d0f273.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607869054437,
+        "stop" : 1607869054444,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c60471a505563d7e",
+        "name" : "Request",
+        "source" : "c60471a505563d7e.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "4ead9239fd10b70a",
+        "name" : "Response",
+        "source" : "4ead9239fd10b70a.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607869054445,
+        "stop" : 1607869054458,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "602dedf89bfa3",
+        "name" : "Request",
+        "source" : "602dedf89bfa3.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "67bcde2974dd205e",
+        "name" : "Response",
+        "source" : "67bcde2974dd205e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/c698dca3-eb1e-4057-94b8-42fadc608e1c/click",
+      "time" : {
+        "start" : 1607869054459,
+        "stop" : 1607869054494,
+        "duration" : 35
+      },
+      "status" : "broken",
+      "statusMessage" : "element click intercepted: Element <button class=\"_SiteNav-a _SiteNav-af _SiteNav-bi _SiteNav-bj _SiteNav-bk _SiteNav-bl _SiteNav-bm _SiteNav-bn _SiteNav-bo _SiteNav-bp _SiteNav-bq _SiteNav-br _SiteNav-bs _SiteNav-bt _SiteNav-bu _SiteNav-bv _SiteNav-bw _SiteNav-bx _SiteNav-by _SiteNav-bz _SiteNav-l\" type=\"button\"> is not clickable at point (1129,32) because another element <div class=\"optanon-alert-box-bottom-top\"> obscures it\n                    at getErrorFromResponseBody (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriver\\build\\utils.js:121:10)\n                    at WebDriverRequest._request (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriver\\build\\request.js:149:56)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriverio\\build\\middlewares.js:21:24)\n                    at Element.runCommandWithHooks (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Element.runCommandWithHooks (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.click (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at Context.<anonymous> (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\specs\\/subscribe.js:48:30)\n                    at Context.executeSync (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open the url"
+  }, {
+    "name" : "testClass",
+    "value" : "Open the url"
+  }, {
+    "name" : "testMethod",
+    "value" : "should click cars navigation button "
+  }, {
+    "name" : "package",
+    "value" : "Open the url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-83.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "22ffe06ed2a5bc9c.json",
+  "parameterValues" : [ "firefox-83.0" ]
+}

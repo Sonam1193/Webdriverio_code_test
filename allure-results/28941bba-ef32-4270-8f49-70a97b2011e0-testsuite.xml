@@ -1,0 +1,237 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1607866241334' stop='1607866246887'>
+    <name>Open the url</name>
+    <title>Open the url</title>
+    <test-cases>
+        <test-case start='1607866241335' status='broken' stop='1607866245831'>
+            <name>should open the link </name>
+            <title>should open the link </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.41'/>
+            </parameters>
+            <steps>
+                <step start='1607866241342' status='passed' stop='1607866243468'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ab416295-057d-47ed-952d-c538dc5f82a4-attachment.json' type='application/json' size='73'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607866243469' status='passed' stop='1607866245812'>
+                    <name>POST /session/:sessionId/window/rect</name>
+                    <title>POST /session/:sessionId/window/rect</title>
+                    <attachments>
+                        <attachment title='Request' source='b47f0f86-7f82-47a9-8ac1-393c09871a17-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='b187d172-443d-4c78-9ce5-809e5cea0585-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>_Base.default.pauseShort is not a function</message>
+                <stack-trace>TypeError: _Base.default.pauseShort is not a function
+                    at Context.&lt;anonymous> (C:\Users\Sonu\webdriverio-Code_Test\test\specs\/search.js:9:12)
+                    at Context.executeSync (C:\Users\Sonu\webdriverio-Code_Test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Sonu\webdriverio-Code_Test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1607866245832' status='passed' stop='1607866246402'>
+            <name>should click on Cookie Accept button and verify the title of the page</name>
+            <title>should click on Cookie Accept button and verify the title of the page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.41'/>
+            </parameters>
+            <steps>
+                <step start='1607866245839' status='passed' stop='1607866245885'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='173a2761-22d7-4fe8-8d36-8882b383d995-attachment.json' type='application/json' size='84'/>
+                        <attachment title='Response' source='86f84cb3-6716-4488-bb88-fddcaf76bc60-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607866245909' status='passed' stop='1607866245996'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='c6ebc45e-31d8-45f5-a58b-761a6eb44366-attachment.json' type='application/json' size='5306'/>
+                        <attachment title='Response' source='136fe4ae-61f1-43d6-a296-00414441eb6f-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607866246003' status='passed' stop='1607866246036'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='030eaf5d-5145-4c43-bc8c-4997575426e2-attachment.json' type='application/json' size='84'/>
+                        <attachment title='Response' source='fc18c9cb-b6fb-45c7-a228-4a3bb3fa2d79-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607866246053' status='passed' stop='1607866246331'>
+                    <name>POST /session/:sessionId/element/d7c88c29-fdb1-473f-b99d-a01bc4acdb90/click</name>
+                    <title>POST /session/:sessionId/element/d7c88c29-fdb1-473f-b99d-a01bc4acdb90/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1607866246332' status='passed' stop='1607866246400'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='741c30fc-f2ba-4c36-a910-d00e9cf73119-attachment.json' type='application/json' size='29'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1607866246403' status='broken' stop='1607866246624'>
+            <name>should click on watch the story button and video should run</name>
+            <title>should click on watch the story button and video should run</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.41'/>
+            </parameters>
+            <steps>
+                <step start='1607866246404' status='passed' stop='1607866246538'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='78e4b063-b44f-48dd-93fe-8d97e492491c-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='a733b0de-34cf-46ab-90d0-1ec31dacc4d5-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607866246551' status='passed' stop='1607866246622'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='66d0af7d-cc01-4343-b145-d5848fd6cec6-attachment.json' type='application/json' size='296'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>_Base.default.pauseShort is not a function</message>
+                <stack-trace>TypeError: _Base.default.pauseShort is not a function
+                    at Context.&lt;anonymous> (C:\Users\Sonu\webdriverio-Code_Test\test\specs\/search.js:25:10)
+                    at Context.executeSync (C:\Users\Sonu\webdriverio-Code_Test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Sonu\webdriverio-Code_Test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1607866246626' status='broken' stop='1607866246860'>
+            <name>should verify the text "A million more. With new and existing safety features, we are determined to save a million more lives."</name>
+            <title>should verify the text "A million more. With new and existing safety features, we are determined to save a million more lives."</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.41'/>
+            </parameters>
+            <steps>
+                <step start='1607866246629' status='passed' stop='1607866246825'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6cbfe263-1d7f-43ea-9b03-a973bc1398de-attachment.json' type='application/json' size='76'/>
+                        <attachment title='Response' source='9e2bfdd6-2f9b-475f-88df-43c02c204d72-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607866246828' status='passed' stop='1607866246839'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='f0a982cc-ff80-4552-bb0a-6763a0885039-attachment.json' type='application/json' size='5306'/>
+                        <attachment title='Response' source='b472cd60-78b0-4b24-af7d-e2a6940aeb9f-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607866246840' status='passed' stop='1607866246850'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a6dd6b6a-14c0-4280-9f04-d302b8fc76b7-attachment.json' type='application/json' size='76'/>
+                        <attachment title='Response' source='273124af-a864-4f04-9ce0-e2860fa6f3d0-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607866246852' status='passed' stop='1607866246859'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='e7baedcb-937e-4f54-b07b-d7f7c85bea1c-attachment.json' type='application/json' size='296'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>_Base.default.pauseLong is not a function</message>
+                <stack-trace>TypeError: _Base.default.pauseLong is not a function
+                    at Context.&lt;anonymous> (C:\Users\Sonu\webdriverio-Code_Test\test\specs\/search.js:36:10)
+                    at Context.executeSync (C:\Users\Sonu\webdriverio-Code_Test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Sonu\webdriverio-Code_Test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1607866246860' status='broken' stop='1607866246886'>
+            <name>should verify the hyperlink and navigate to that link page</name>
+            <title>should verify the hyperlink and navigate to that link page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.41'/>
+            </parameters>
+            <steps>
+                <step start='1607866246860' status='passed' stop='1607866246875'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f1fc15c2-0dca-4b9c-97b0-9190149b4955-attachment.json' type='application/json' size='153'/>
+                        <attachment title='Response' source='b9497719-4355-43ad-bae8-c2afe372a41f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607866246877' status='passed' stop='1607866246886'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='2c98fc30-4e46-49ac-9b93-3c2701a3cfe9-attachment.json' type='application/json' size='296'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>_Base.default.pauseShort is not a function</message>
+                <stack-trace>TypeError: _Base.default.pauseShort is not a function
+                    at Context.&lt;anonymous> (C:\Users\Sonu\webdriverio-Code_Test\test\specs\/search.js:44:10)
+                    at Context.executeSync (C:\Users\Sonu\webdriverio-Code_Test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Sonu\webdriverio-Code_Test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

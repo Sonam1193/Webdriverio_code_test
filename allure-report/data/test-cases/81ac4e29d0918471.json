@@ -1,0 +1,167 @@
+{
+  "uid" : "81ac4e29d0918471",
+  "name" : "should close navigation panel",
+  "fullName" : "Open the url.should close navigation panel",
+  "historyId" : "5cd7716bcf52ef0bdfca42150c8c1043",
+  "time" : {
+    "start" : 1607869223913,
+    "stop" : 1607869224048,
+    "duration" : 135
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not interactable\n                  (Session info: chrome=88.0.4324.41)",
+  "statusTrace" : "element not interactable\n                  (Session info: chrome=88.0.4324.41)\n                    at getErrorFromResponseBody (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriver\\build\\utils.js:121:10)\n                    at WebDriverRequest._request (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriver\\build\\request.js:149:56)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriverio\\build\\middlewares.js:21:24)\n                    at Element.runCommandWithHooks (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Element.runCommandWithHooks (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.click (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at Context.<anonymous> (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\specs\\/subscribe.js:40:36)\n                    at Context.executeSync (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element not interactable\n                  (Session info: chrome=88.0.4324.41)",
+    "statusTrace" : "element not interactable\n                  (Session info: chrome=88.0.4324.41)\n                    at getErrorFromResponseBody (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriver\\build\\utils.js:121:10)\n                    at WebDriverRequest._request (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriver\\build\\request.js:149:56)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriverio\\build\\middlewares.js:21:24)\n                    at Element.runCommandWithHooks (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Element.runCommandWithHooks (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.click (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at Context.<anonymous> (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\specs\\/subscribe.js:40:36)\n                    at Context.executeSync (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607869223913,
+        "stop" : 1607869223933,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1f11abce90e88ad",
+        "name" : "Request",
+        "source" : "1f11abce90e88ad.json",
+        "type" : "application/json",
+        "size" : 92
+      }, {
+        "uid" : "960d3d8e9de21d39",
+        "name" : "Response",
+        "source" : "960d3d8e9de21d39.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607869223936,
+        "stop" : 1607869223951,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "33526af3bf2c5cbd",
+        "name" : "Request",
+        "source" : "33526af3bf2c5cbd.json",
+        "type" : "application/json",
+        "size" : 92
+      }, {
+        "uid" : "ca4f0d3e16066fa9",
+        "name" : "Response",
+        "source" : "ca4f0d3e16066fa9.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607869223954,
+        "stop" : 1607869223967,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "22c9fd3997a097e7",
+        "name" : "Request",
+        "source" : "22c9fd3997a097e7.json",
+        "type" : "application/json",
+        "size" : 92
+      }, {
+        "uid" : "184d62764ac77682",
+        "name" : "Response",
+        "source" : "184d62764ac77682.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/adb02af9-6bec-47c5-9990-b696f9a50e83/click",
+      "time" : {
+        "start" : 1607869223969,
+        "stop" : 1607869224048,
+        "duration" : 79
+      },
+      "status" : "broken",
+      "statusMessage" : "element not interactable\n                  (Session info: chrome=88.0.4324.41)\n                    at getErrorFromResponseBody (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriver\\build\\utils.js:121:10)\n                    at WebDriverRequest._request (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriver\\build\\request.js:149:56)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriverio\\build\\middlewares.js:21:24)\n                    at Element.runCommandWithHooks (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Element.runCommandWithHooks (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.click (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at Context.<anonymous> (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\specs\\/subscribe.js:40:36)\n                    at Context.executeSync (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open the url"
+  }, {
+    "name" : "testClass",
+    "value" : "Open the url"
+  }, {
+    "name" : "testMethod",
+    "value" : "should close navigation panel"
+  }, {
+    "name" : "package",
+    "value" : "Open the url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81ac4e29d0918471.json",
+  "parameterValues" : [ "chrome-88.0.4324.41" ]
+}

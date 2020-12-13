@@ -1,0 +1,118 @@
+{
+  "uid" : "1ba2f6732531f4b8",
+  "name" : "should open the link ",
+  "fullName" : "Open the url.should open the link ",
+  "historyId" : "6cb97d3a270808c49d0a7cd4e2a989d1",
+  "time" : {
+    "start" : 1607869216151,
+    "stop" : 1607869217805,
+    "duration" : 1654
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "_subscribePage.default.pauseShort is not a function",
+  "statusTrace" : "TypeError: _subscribePage.default.pauseShort is not a function\n                    at Context.<anonymous> (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\specs\\/subscribe.js:8:23)\n                    at Context.executeSync (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "_subscribePage.default.pauseShort is not a function",
+    "statusTrace" : "TypeError: _subscribePage.default.pauseShort is not a function\n                    at Context.<anonymous> (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\specs\\/subscribe.js:8:23)\n                    at Context.executeSync (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1607869216157,
+        "stop" : 1607869217698,
+        "duration" : 1541
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "55d8e63f87824030",
+        "name" : "Request",
+        "source" : "55d8e63f87824030.json",
+        "type" : "application/json",
+        "size" : 73
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/window/rect",
+      "time" : {
+        "start" : 1607869217698,
+        "stop" : 1607869217788,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "692e1074c17e95c1",
+        "name" : "Request",
+        "source" : "692e1074c17e95c1.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "9ebc18454927c24d",
+        "name" : "Response",
+        "source" : "9ebc18454927c24d.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open the url"
+  }, {
+    "name" : "testClass",
+    "value" : "Open the url"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open the link "
+  }, {
+    "name" : "package",
+    "value" : "Open the url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-83.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1ba2f6732531f4b8.json",
+  "parameterValues" : [ "firefox-83.0" ]
+}

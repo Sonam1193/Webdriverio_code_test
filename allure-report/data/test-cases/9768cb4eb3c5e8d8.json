@@ -1,0 +1,162 @@
+{
+  "uid" : "9768cb4eb3c5e8d8",
+  "name" : "should scroll into Decades of Innovation Learn More and Click on it ",
+  "fullName" : "Volvo Car Safety| A million more.should scroll into Decades of Innovation Learn More and Click on it ",
+  "historyId" : "42aa132558d0a4e620857301560549b4",
+  "time" : {
+    "start" : 1607871080977,
+    "stop" : 1607871139915,
+    "duration" : 58938
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607871080977,
+        "stop" : 1607871080989,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cdfadc3e998bed9d",
+        "name" : "Request",
+        "source" : "cdfadc3e998bed9d.json",
+        "type" : "application/json",
+        "size" : 110
+      }, {
+        "uid" : "cf86c91f1e722771",
+        "name" : "Response",
+        "source" : "cf86c91f1e722771.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607871080991,
+        "stop" : 1607871081004,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "30bb2c94af60fde0",
+        "name" : "Request",
+        "source" : "30bb2c94af60fde0.json",
+        "type" : "application/json",
+        "size" : 110
+      }, {
+        "uid" : "663183d4e2569713",
+        "name" : "Response",
+        "source" : "663183d4e2569713.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607871081006,
+        "stop" : 1607871081016,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e2c315add348f88c",
+        "name" : "Request",
+        "source" : "e2c315add348f88c.json",
+        "type" : "application/json",
+        "size" : 110
+      }, {
+        "uid" : "4cf8ec53dcf92ca7",
+        "name" : "Response",
+        "source" : "4cf8ec53dcf92ca7.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/152deae2-573e-4147-bbfa-27eca56161c8/click",
+      "time" : {
+        "start" : 1607871081021,
+        "stop" : 1607871139915,
+        "duration" : 58894
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "testMethod",
+    "value" : "should scroll into Decades of Innovation Learn More and Click on it "
+  }, {
+    "name" : "package",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-83.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9768cb4eb3c5e8d8.json",
+  "parameterValues" : [ "firefox-83.0" ]
+}

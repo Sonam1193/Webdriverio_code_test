@@ -1,0 +1,156 @@
+{
+  "uid" : "40c962a4369b81d8",
+  "name" : "should allow privacy Setting",
+  "fullName" : "Open the url.should allow privacy Setting",
+  "historyId" : "6dc0af553e057939ca11a2f30af5badc",
+  "time" : {
+    "start" : 1607855918978,
+    "stop" : 1607855925180,
+    "duration" : 6202
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607855918978,
+        "stop" : 1607855919005,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3aeed10fb831d1cd",
+        "name" : "Request",
+        "source" : "3aeed10fb831d1cd.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "d926ed24f878d74a",
+        "name" : "Response",
+        "source" : "d926ed24f878d74a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607855919012,
+        "stop" : 1607855919047,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c1b0e87247aa32b9",
+        "name" : "Request",
+        "source" : "c1b0e87247aa32b9.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "970edfa5d997d77e",
+        "name" : "Response",
+        "source" : "970edfa5d997d77e.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/4aa8567c-33c7-47f8-9957-70fb0e9ec150/click",
+      "time" : {
+        "start" : 1607855922052,
+        "stop" : 1607855922167,
+        "duration" : 115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1607855922168,
+        "stop" : 1607855922178,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b3bbf7bc8caef71d",
+        "name" : "Response",
+        "source" : "b3bbf7bc8caef71d.json",
+        "type" : "application/json",
+        "size" : 29
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open the url"
+  }, {
+    "name" : "testClass",
+    "value" : "Open the url"
+  }, {
+    "name" : "testMethod",
+    "value" : "should allow privacy Setting"
+  }, {
+    "name" : "package",
+    "value" : "Open the url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "40c962a4369b81d8.json",
+  "parameterValues" : [ "chrome-88.0.4324.41" ]
+}

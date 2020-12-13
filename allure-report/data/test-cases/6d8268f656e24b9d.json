@@ -1,0 +1,118 @@
+{
+  "uid" : "6d8268f656e24b9d",
+  "name" : "should verify the hyperlink and navigate to that link page",
+  "fullName" : "Open the url.should verify the hyperlink and navigate to that link page",
+  "historyId" : "22063cc44d46459b89523e3f4737f06",
+  "time" : {
+    "start" : 1607866889303,
+    "stop" : 1607866889332,
+    "duration" : 29
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'waitForExist' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'waitForExist' of undefined\n                    at searchPage.formIsVisible (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\page-object\\/searchPage.js:22:25)\n                    at Context.<anonymous> (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\specs\\/search.js:33:16)\n                    at Context.executeSync (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'waitForExist' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'waitForExist' of undefined\n                    at searchPage.formIsVisible (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\page-object\\/searchPage.js:22:25)\n                    at Context.<anonymous> (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\specs\\/search.js:33:16)\n                    at Context.executeSync (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607866889304,
+        "stop" : 1607866889319,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e7d3d0ea8cc20051",
+        "name" : "Request",
+        "source" : "e7d3d0ea8cc20051.json",
+        "type" : "application/json",
+        "size" : 153
+      }, {
+        "uid" : "3e9981900ec627bf",
+        "name" : "Response",
+        "source" : "3e9981900ec627bf.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1607866889322,
+        "stop" : 1607866889331,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "275180264b961efd",
+        "name" : "Request",
+        "source" : "275180264b961efd.json",
+        "type" : "application/json",
+        "size" : 296
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open the url"
+  }, {
+    "name" : "testClass",
+    "value" : "Open the url"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify the hyperlink and navigate to that link page"
+  }, {
+    "name" : "package",
+    "value" : "Open the url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-83.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d8268f656e24b9d.json",
+  "parameterValues" : [ "firefox-83.0" ]
+}

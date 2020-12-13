@@ -1,0 +1,156 @@
+{
+  "uid" : "2b817eb14e6482a1",
+  "name" : "should allow privacy Setting",
+  "fullName" : "Open the url.should allow privacy Setting",
+  "historyId" : "15a8acd78b86783cae32be24f6053c40",
+  "time" : {
+    "start" : 1607854089241,
+    "stop" : 1607854095803,
+    "duration" : 6562
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607854089244,
+        "stop" : 1607854089291,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c5b8288da390bf16",
+        "name" : "Request",
+        "source" : "c5b8288da390bf16.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "2d89f296671b940",
+        "name" : "Response",
+        "source" : "2d89f296671b940.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607854089300,
+        "stop" : 1607854089364,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f617140fef7e4564",
+        "name" : "Request",
+        "source" : "f617140fef7e4564.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "9dfea3dd4fe5f8a0",
+        "name" : "Response",
+        "source" : "9dfea3dd4fe5f8a0.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/8de68141-2c4d-4853-8e4c-c7cb09a2c225/click",
+      "time" : {
+        "start" : 1607854092380,
+        "stop" : 1607854092787,
+        "duration" : 407
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1607854092789,
+        "stop" : 1607854092798,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4c51fdb49fde8f5e",
+        "name" : "Response",
+        "source" : "4c51fdb49fde8f5e.json",
+        "type" : "application/json",
+        "size" : 29
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open the url"
+  }, {
+    "name" : "testClass",
+    "value" : "Open the url"
+  }, {
+    "name" : "testMethod",
+    "value" : "should allow privacy Setting"
+  }, {
+    "name" : "package",
+    "value" : "Open the url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-83.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b817eb14e6482a1.json",
+  "parameterValues" : [ "firefox-83.0" ]
+}

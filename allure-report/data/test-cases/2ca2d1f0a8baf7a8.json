@@ -1,0 +1,162 @@
+{
+  "uid" : "2ca2d1f0a8baf7a8",
+  "name" : "should click cars navigation button ",
+  "fullName" : "Volvo Car Safety| A million more.should click cars navigation button ",
+  "historyId" : "9ad9f17a19e31bbf2493199583909a22",
+  "time" : {
+    "start" : 1607879247757,
+    "stop" : 1607879250973,
+    "duration" : 3216
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607879247758,
+        "stop" : 1607879247774,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "efbeb12a47208e05",
+        "name" : "Request",
+        "source" : "efbeb12a47208e05.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "3c2728f35206b602",
+        "name" : "Response",
+        "source" : "3c2728f35206b602.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607879247780,
+        "stop" : 1607879247797,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4f479ff1f370a5e5",
+        "name" : "Request",
+        "source" : "4f479ff1f370a5e5.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "3474e8bd703da18a",
+        "name" : "Response",
+        "source" : "3474e8bd703da18a.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607879247798,
+        "stop" : 1607879247812,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a4c3cad1a93c5348",
+        "name" : "Request",
+        "source" : "a4c3cad1a93c5348.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "812d41720f2253a5",
+        "name" : "Response",
+        "source" : "812d41720f2253a5.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/9fa689d3-b00e-4331-bae6-7093b9cc0807/click",
+      "time" : {
+        "start" : 1607879247813,
+        "stop" : 1607879247973,
+        "duration" : 160
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "testMethod",
+    "value" : "should click cars navigation button "
+  }, {
+    "name" : "package",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ca2d1f0a8baf7a8.json",
+  "parameterValues" : [ "chrome-88.0.4324.41" ]
+}

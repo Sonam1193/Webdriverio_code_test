@@ -1,0 +1,118 @@
+{
+  "uid" : "debf23211bc5097",
+  "name" : "should verify the hyperlink and navigate to that link page",
+  "fullName" : "Open the url.should verify the hyperlink and navigate to that link page",
+  "historyId" : "debed2c092b5baaf6bddceead95cb6e7",
+  "time" : {
+    "start" : 1607866890771,
+    "stop" : 1607866890803,
+    "duration" : 32
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'waitForExist' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'waitForExist' of undefined\n                    at searchPage.formIsVisible (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\page-object\\/searchPage.js:22:25)\n                    at Context.<anonymous> (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\specs\\/search.js:33:16)\n                    at Context.executeSync (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'waitForExist' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'waitForExist' of undefined\n                    at searchPage.formIsVisible (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\page-object\\/searchPage.js:22:25)\n                    at Context.<anonymous> (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\specs\\/search.js:33:16)\n                    at Context.executeSync (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607866890773,
+        "stop" : 1607866890789,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "74e14ad4bdfff8c8",
+        "name" : "Request",
+        "source" : "74e14ad4bdfff8c8.json",
+        "type" : "application/json",
+        "size" : 153
+      }, {
+        "uid" : "cc13050409576bd8",
+        "name" : "Response",
+        "source" : "cc13050409576bd8.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1607866890791,
+        "stop" : 1607866890800,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "33f38c86e8cd2e04",
+        "name" : "Request",
+        "source" : "33f38c86e8cd2e04.json",
+        "type" : "application/json",
+        "size" : 296
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open the url"
+  }, {
+    "name" : "testClass",
+    "value" : "Open the url"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify the hyperlink and navigate to that link page"
+  }, {
+    "name" : "package",
+    "value" : "Open the url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "debf23211bc5097.json",
+  "parameterValues" : [ "chrome-88.0.4324.41" ]
+}

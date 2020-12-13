@@ -1,0 +1,466 @@
+{
+  "uid" : "54b86b2f430cce53",
+  "name" : "should click on Cookie Accept button and verify the title of the page",
+  "fullName" : "Volvo Car Safety.should click on Cookie Accept button and verify the title of the page",
+  "historyId" : "b7637ec8133cd3ae4eb8940eb0abf75",
+  "time" : {
+    "start" : 1607890874018,
+    "stop" : 1607890874995,
+    "duration" : 977
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607890874020,
+        "stop" : 1607890874047,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9a247c5e0f260c27",
+        "name" : "Request",
+        "source" : "9a247c5e0f260c27.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "91b12cb34df3559d",
+        "name" : "Response",
+        "source" : "91b12cb34df3559d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1607890874064,
+        "stop" : 1607890874078,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "39905609b9d66ec7",
+        "name" : "Request",
+        "source" : "39905609b9d66ec7.json",
+        "type" : "application/json",
+        "size" : 5306
+      }, {
+        "uid" : "afa5247255e015d8",
+        "name" : "Response",
+        "source" : "afa5247255e015d8.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607890874082,
+        "stop" : 1607890874103,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3d5801f2c29c0e2f",
+        "name" : "Request",
+        "source" : "3d5801f2c29c0e2f.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "9c512763b05b8468",
+        "name" : "Response",
+        "source" : "9c512763b05b8468.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/fd31f9dc-8802-43a6-b1f9-fd2938278260/click",
+      "time" : {
+        "start" : 1607890874108,
+        "stop" : 1607890874618,
+        "duration" : 510
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607890874618,
+        "stop" : 1607890874674,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "722652cc1b421526",
+        "name" : "Request",
+        "source" : "722652cc1b421526.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "258cdc6374eb3927",
+        "name" : "Response",
+        "source" : "258cdc6374eb3927.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607890874678,
+        "stop" : 1607890874968,
+        "duration" : 290
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ef6ed8ae542f3c1c",
+        "name" : "Request",
+        "source" : "ef6ed8ae542f3c1c.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "8db1bbcb20dbccf4",
+        "name" : "Response",
+        "source" : "8db1bbcb20dbccf4.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1607890874976,
+        "stop" : 1607890874993,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "71faa4d49b7919d1",
+        "name" : "Response",
+        "source" : "71faa4d49b7919d1.json",
+        "type" : "application/json",
+        "size" : 29
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo Car Safety"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo Car Safety"
+  }, {
+    "name" : "testMethod",
+    "value" : "should click on Cookie Accept button and verify the title of the page"
+  }, {
+    "name" : "package",
+    "value" : "Volvo Car Safety"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "37cf10015bf10aa1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607890836602,
+        "stop" : 1607890837151,
+        "duration" : 549
+      }
+    }, {
+      "uid" : "7c6244b835568cea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607889715460,
+        "stop" : 1607889716675,
+        "duration" : 1215
+      }
+    }, {
+      "uid" : "b7bf77e8e086a8d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607888941395,
+        "stop" : 1607888942760,
+        "duration" : 1365
+      }
+    }, {
+      "uid" : "69306d0b47fb5592",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607888684753,
+        "stop" : 1607888685588,
+        "duration" : 835
+      }
+    }, {
+      "uid" : "4f2aa5341216c8a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607888053421,
+        "stop" : 1607888054629,
+        "duration" : 1208
+      }
+    }, {
+      "uid" : "3089a24aa379872b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607888002739,
+        "stop" : 1607888003634,
+        "duration" : 895
+      }
+    }, {
+      "uid" : "4b5fab7ca9ba55b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607887871819,
+        "stop" : 1607887872752,
+        "duration" : 933
+      }
+    }, {
+      "uid" : "ef37834b384d3ed8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607887534173,
+        "stop" : 1607887535178,
+        "duration" : 1005
+      }
+    }, {
+      "uid" : "6daf67c494eac991",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607886981874,
+        "stop" : 1607886982888,
+        "duration" : 1014
+      }
+    }, {
+      "uid" : "d9fca89ebb8fa827",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607886872447,
+        "stop" : 1607886873294,
+        "duration" : 847
+      }
+    }, {
+      "uid" : "c7eb68619afd9b57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880840428,
+        "stop" : 1607880841640,
+        "duration" : 1212
+      }
+    }, {
+      "uid" : "c8a9ac982cc398b2",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`.optanon-allow-all.accept-cookies-button`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "time" : {
+        "start" : 1607880661610,
+        "stop" : 1607880671680,
+        "duration" : 10070
+      }
+    }, {
+      "uid" : "335ea8326df23ec9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880450844,
+        "stop" : 1607880451631,
+        "duration" : 787
+      }
+    }, {
+      "uid" : "15641367ddc13383",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`.optanon-allow-all.accept-cookies-button`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "time" : {
+        "start" : 1607880380758,
+        "stop" : 1607880390987,
+        "duration" : 10229
+      }
+    }, {
+      "uid" : "1e9d76a158e0115d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880262778,
+        "stop" : 1607880264053,
+        "duration" : 1275
+      }
+    }, {
+      "uid" : "e5adfaa034babbd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880161661,
+        "stop" : 1607880162156,
+        "duration" : 495
+      }
+    }, {
+      "uid" : "e395f7facda8e016",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879966651,
+        "stop" : 1607879967485,
+        "duration" : 834
+      }
+    }, {
+      "uid" : "3fa35ad78960ff24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879803964,
+        "stop" : 1607879805329,
+        "duration" : 1365
+      }
+    }, {
+      "uid" : "b23669bd86b38ef3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879652631,
+        "stop" : 1607879654011,
+        "duration" : 1380
+      }
+    }, {
+      "uid" : "3f88b873421121f3",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`.optanon-allow-all.accept-cookies-button`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "time" : {
+        "start" : 1607879523418,
+        "stop" : 1607879533787,
+        "duration" : 10369
+      }
+    }, {
+      "uid" : "9248330ad8f448d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879239181,
+        "stop" : 1607879239737,
+        "duration" : 556
+      }
+    }, {
+      "uid" : "3b9e9f5a7ebeba76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879175815,
+        "stop" : 1607879176803,
+        "duration" : 988
+      }
+    }, {
+      "uid" : "8003c214d0019e8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879095292,
+        "stop" : 1607879096221,
+        "duration" : 929
+      }
+    }, {
+      "uid" : "75903c9dd5ed7e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607876898919,
+        "stop" : 1607876900051,
+        "duration" : 1132
+      }
+    }, {
+      "uid" : "9e31514d4258e099",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607876154118,
+        "stop" : 1607876154986,
+        "duration" : 868
+      }
+    }, {
+      "uid" : "ff56f914f44a24df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607875723149,
+        "stop" : 1607875724001,
+        "duration" : 852
+      }
+    }, {
+      "uid" : "9dc4053f259f127e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607874646894,
+        "stop" : 1607874647947,
+        "duration" : 1053
+      }
+    }, {
+      "uid" : "14c0b48a0f623055",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607874607491,
+        "stop" : 1607874608413,
+        "duration" : 922
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "54b86b2f430cce53.json",
+  "parameterValues" : [ "chrome-88.0.4324.41" ]
+}

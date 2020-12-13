@@ -1,0 +1,166 @@
+{
+  "uid" : "beae158186914c0f",
+  "name" : "should click cars navigation button ",
+  "fullName" : "Open the url.should click cars navigation button ",
+  "historyId" : "7605da4142519eca2146e4e5f7d020a6",
+  "time" : {
+    "start" : 1607869348748,
+    "stop" : 1607869349476,
+    "duration" : 728
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "_subscribePage.default.pauseShort is not a function",
+  "statusTrace" : "TypeError: _subscribePage.default.pauseShort is not a function\n                    at Context.<anonymous> (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\specs\\/subscribe.js:46:23)\n                    at Context.executeSync (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "_subscribePage.default.pauseShort is not a function",
+    "statusTrace" : "TypeError: _subscribePage.default.pauseShort is not a function\n                    at Context.<anonymous> (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\specs\\/subscribe.js:46:23)\n                    at Context.executeSync (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607869348749,
+        "stop" : 1607869348777,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bd0f6296ac4d84a1",
+        "name" : "Request",
+        "source" : "bd0f6296ac4d84a1.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "376fad47136f53f1",
+        "name" : "Response",
+        "source" : "376fad47136f53f1.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607869348781,
+        "stop" : 1607869348837,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8fd74cfe2a45c790",
+        "name" : "Request",
+        "source" : "8fd74cfe2a45c790.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "787f2024b0cc80ba",
+        "name" : "Response",
+        "source" : "787f2024b0cc80ba.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607869348846,
+        "stop" : 1607869348891,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e607fb60a5ed462e",
+        "name" : "Request",
+        "source" : "e607fb60a5ed462e.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "463b6b5b9d90b598",
+        "name" : "Response",
+        "source" : "463b6b5b9d90b598.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/5cd5ba27-8af9-4549-809a-290bf9d134ec/click",
+      "time" : {
+        "start" : 1607869348912,
+        "stop" : 1607869349469,
+        "duration" : 557
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open the url"
+  }, {
+    "name" : "testClass",
+    "value" : "Open the url"
+  }, {
+    "name" : "testMethod",
+    "value" : "should click cars navigation button "
+  }, {
+    "name" : "package",
+    "value" : "Open the url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-83.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "beae158186914c0f.json",
+  "parameterValues" : [ "firefox-83.0" ]
+}

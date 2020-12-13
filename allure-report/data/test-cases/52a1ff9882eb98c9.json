@@ -1,0 +1,166 @@
+{
+  "uid" : "52a1ff9882eb98c9",
+  "name" : "should verify the text \"A million more. With new and existing safety features, we are determined to save a million more lives.\"",
+  "fullName" : "Open the url.should verify the text \"A million more. With new and existing safety features, we are determined to save a million more lives.\"",
+  "historyId" : "d046a5b7fdf9cb2d05bb897126834427",
+  "time" : {
+    "start" : 1607866245078,
+    "stop" : 1607866245334,
+    "duration" : 256
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "_Base.default.pauseLong is not a function",
+  "statusTrace" : "TypeError: _Base.default.pauseLong is not a function\n                    at Context.<anonymous> (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\specs\\/search.js:36:10)\n                    at Context.executeSync (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "_Base.default.pauseLong is not a function",
+    "statusTrace" : "TypeError: _Base.default.pauseLong is not a function\n                    at Context.<anonymous> (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\specs\\/search.js:36:10)\n                    at Context.executeSync (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607866245079,
+        "stop" : 1607866245124,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d24d434fcd3bb8c8",
+        "name" : "Request",
+        "source" : "d24d434fcd3bb8c8.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "56061ead0f6b3a2d",
+        "name" : "Response",
+        "source" : "56061ead0f6b3a2d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/b4660892-5026-488c-b589-22db6f87e342/displayed",
+      "time" : {
+        "start" : 1607866245128,
+        "stop" : 1607866245243,
+        "duration" : 115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dadbf6a5f206c76d",
+        "name" : "Response",
+        "source" : "dadbf6a5f206c76d.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607866245245,
+        "stop" : 1607866245281,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1ad7fe64e94b3312",
+        "name" : "Request",
+        "source" : "1ad7fe64e94b3312.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "192dedbc212f10eb",
+        "name" : "Response",
+        "source" : "192dedbc212f10eb.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1607866245284,
+        "stop" : 1607866245331,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3ead94c20bb93df6",
+        "name" : "Request",
+        "source" : "3ead94c20bb93df6.json",
+        "type" : "application/json",
+        "size" : 296
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open the url"
+  }, {
+    "name" : "testClass",
+    "value" : "Open the url"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify the text \"A million more. With new and existing safety features, we are determined to save a million more lives.\""
+  }, {
+    "name" : "package",
+    "value" : "Open the url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-83.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52a1ff9882eb98c9.json",
+  "parameterValues" : [ "firefox-83.0" ]
+}

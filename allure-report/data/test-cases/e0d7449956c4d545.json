@@ -1,0 +1,108 @@
+{
+  "uid" : "e0d7449956c4d545",
+  "name" : "should close cars navigation panel",
+  "fullName" : "Open the url.should close cars navigation panel",
+  "historyId" : "532fca3363bc8e20cc58c61fe7c5e575",
+  "time" : {
+    "start" : 1607858149382,
+    "stop" : 1607858152577,
+    "duration" : 3195
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607858149384,
+        "stop" : 1607858149433,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4fc6f71fc62e8fdd",
+        "name" : "Request",
+        "source" : "4fc6f71fc62e8fdd.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "ddac2db22ff4d91",
+        "name" : "Response",
+        "source" : "ddac2db22ff4d91.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/fe719b8a-0eba-4a80-8f77-29bfebf931e4/click",
+      "time" : {
+        "start" : 1607858149436,
+        "stop" : 1607858149576,
+        "duration" : 140
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open the url"
+  }, {
+    "name" : "testClass",
+    "value" : "Open the url"
+  }, {
+    "name" : "testMethod",
+    "value" : "should close cars navigation panel"
+  }, {
+    "name" : "package",
+    "value" : "Open the url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e0d7449956c4d545.json",
+  "parameterValues" : [ "chrome-88.0.4324.41" ]
+}

@@ -1,0 +1,178 @@
+{
+  "uid" : "2f21b38c1dc037e4",
+  "name" : "should click on Cookie Settings button and verify the page",
+  "fullName" : "Open the url.should click on Cookie Settings button and verify the page",
+  "historyId" : "f536cb2b6cb9fa6c44c89a58a540243f",
+  "time" : {
+    "start" : 1607868930363,
+    "stop" : 1607868930454,
+    "duration" : 91
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "_subscribePage.default.pauseShort is not a function",
+  "statusTrace" : "TypeError: _subscribePage.default.pauseShort is not a function\n                    at Context.<anonymous> (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\specs\\/subscribe.js:15:21)\n                    at Context.executeSync (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "_subscribePage.default.pauseShort is not a function",
+    "statusTrace" : "TypeError: _subscribePage.default.pauseShort is not a function\n                    at Context.<anonymous> (C:\\Users\\Sonu\\webdriverio-Code_Test\\test\\specs\\/subscribe.js:15:21)\n                    at Context.executeSync (C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Sonu\\webdriverio-Code_Test\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607868930365,
+        "stop" : 1607868930387,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8353d8c3bd7dd3da",
+        "name" : "Request",
+        "source" : "8353d8c3bd7dd3da.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "8384c4e1e98d5512",
+        "name" : "Response",
+        "source" : "8384c4e1e98d5512.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607868930394,
+        "stop" : 1607868930416,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8d7244e9c18882c",
+        "name" : "Request",
+        "source" : "8d7244e9c18882c.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "6e38bc31f55913ae",
+        "name" : "Response",
+        "source" : "6e38bc31f55913ae.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607868930418,
+        "stop" : 1607868930433,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dee0f2f2db81592a",
+        "name" : "Request",
+        "source" : "dee0f2f2db81592a.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "f0fb0b7eefc946dc",
+        "name" : "Response",
+        "source" : "f0fb0b7eefc946dc.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1607868930437,
+        "stop" : 1607868930451,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "54b7be34c5dba370",
+        "name" : "Request",
+        "source" : "54b7be34c5dba370.json",
+        "type" : "application/json",
+        "size" : 5306
+      }, {
+        "uid" : "d997181910c7230f",
+        "name" : "Response",
+        "source" : "d997181910c7230f.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open the url"
+  }, {
+    "name" : "testClass",
+    "value" : "Open the url"
+  }, {
+    "name" : "testMethod",
+    "value" : "should click on Cookie Settings button and verify the page"
+  }, {
+    "name" : "package",
+    "value" : "Open the url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f21b38c1dc037e4.json",
+  "parameterValues" : [ "chrome-88.0.4324.41" ]
+}

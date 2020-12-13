@@ -1,0 +1,246 @@
+{
+  "uid" : "1fb1bdb5f8a63811",
+  "name" : "should close cars navigation panel",
+  "fullName" : "Volvo Car Safety| A million more.should close cars navigation panel",
+  "historyId" : "59675ae80d2623f1b1a1f937431f03e2",
+  "time" : {
+    "start" : 1607888195983,
+    "stop" : 1607888199369,
+    "duration" : 3386
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607888195985,
+        "stop" : 1607888196004,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b57bd9d76359c778",
+        "name" : "Request",
+        "source" : "b57bd9d76359c778.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "ca356e142d5515df",
+        "name" : "Response",
+        "source" : "ca356e142d5515df.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/94ef89f4-2cba-4321-8b77-6978810f1085/click",
+      "time" : {
+        "start" : 1607888196008,
+        "stop" : 1607888196363,
+        "duration" : 355
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "testMethod",
+    "value" : "should close cars navigation panel"
+  }, {
+    "name" : "package",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-83.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "79058c067581a52f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880795861,
+        "stop" : 1607880799195,
+        "duration" : 3334
+      }
+    }, {
+      "uid" : "4e35b26e32f874a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880464556,
+        "stop" : 1607880467943,
+        "duration" : 3387
+      }
+    }, {
+      "uid" : "c764e81fdf868d1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879854903,
+        "stop" : 1607879858240,
+        "duration" : 3337
+      }
+    }, {
+      "uid" : "6ea03fdd6d8f0d53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879664959,
+        "stop" : 1607879668387,
+        "duration" : 3428
+      }
+    }, {
+      "uid" : "5a7add52ba28c3b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879538766,
+        "stop" : 1607879542153,
+        "duration" : 3387
+      }
+    }, {
+      "uid" : "d78dc690236dfb94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879253028,
+        "stop" : 1607879256404,
+        "duration" : 3376
+      }
+    }, {
+      "uid" : "627ea519740c78fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607873505054,
+        "stop" : 1607873508452,
+        "duration" : 3398
+      }
+    }, {
+      "uid" : "8b7cc01916329e5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607873439673,
+        "stop" : 1607873443028,
+        "duration" : 3355
+      }
+    }, {
+      "uid" : "2b42aa26e5cb6b24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607872889680,
+        "stop" : 1607872893095,
+        "duration" : 3415
+      }
+    }, {
+      "uid" : "e7ccdb6338a401f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607872775385,
+        "stop" : 1607872778752,
+        "duration" : 3367
+      }
+    }, {
+      "uid" : "7b0a619fdf739f70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607872612045,
+        "stop" : 1607872615415,
+        "duration" : 3370
+      }
+    }, {
+      "uid" : "3b3449ce8c59c79e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607872503964,
+        "stop" : 1607872507353,
+        "duration" : 3389
+      }
+    }, {
+      "uid" : "d9ea5f3b45f9b807",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607871409241,
+        "stop" : 1607871412583,
+        "duration" : 3342
+      }
+    }, {
+      "uid" : "c1aab684f10c6465",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607871182149,
+        "stop" : 1607871185489,
+        "duration" : 3340
+      }
+    }, {
+      "uid" : "a854030d52517d27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607871077629,
+        "stop" : 1607871080977,
+        "duration" : 3348
+      }
+    }, {
+      "uid" : "b1820530e521f9f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607871047499,
+        "stop" : 1607871050853,
+        "duration" : 3354
+      }
+    }, {
+      "uid" : "6a33fb06f000b4dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607870939499,
+        "stop" : 1607870942861,
+        "duration" : 3362
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1fb1bdb5f8a63811.json",
+  "parameterValues" : [ "firefox-83.0" ]
+}

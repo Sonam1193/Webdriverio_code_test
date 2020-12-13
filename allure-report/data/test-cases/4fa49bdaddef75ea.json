@@ -1,0 +1,156 @@
+{
+  "uid" : "4fa49bdaddef75ea",
+  "name" : "should click on watch the story button and video should run",
+  "fullName" : "Open the url.should click on watch the story button and video should run",
+  "historyId" : "d8b16eacc15a949287df93cee9fac800",
+  "time" : {
+    "start" : 1607861819954,
+    "stop" : 1607861820934,
+    "duration" : 980
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607861819956,
+        "stop" : 1607861820043,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "85cf4dc75114469b",
+        "name" : "Request",
+        "source" : "85cf4dc75114469b.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "52c31fbcb6516bd1",
+        "name" : "Response",
+        "source" : "52c31fbcb6516bd1.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607861820050,
+        "stop" : 1607861820077,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1decc7496cfa20b",
+        "name" : "Request",
+        "source" : "1decc7496cfa20b.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "8990b50ff797e68b",
+        "name" : "Response",
+        "source" : "8990b50ff797e68b.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1607861820082,
+        "stop" : 1607861820107,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1eea2203cc8e80e1",
+        "name" : "Request",
+        "source" : "1eea2203cc8e80e1.json",
+        "type" : "application/json",
+        "size" : 296
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/de8a1951-3d5c-4725-b682-d46fc4b4a0da/click",
+      "time" : {
+        "start" : 1607861820112,
+        "stop" : 1607861820934,
+        "duration" : 822
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open the url"
+  }, {
+    "name" : "testClass",
+    "value" : "Open the url"
+  }, {
+    "name" : "testMethod",
+    "value" : "should click on watch the story button and video should run"
+  }, {
+    "name" : "package",
+    "value" : "Open the url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-83.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4fa49bdaddef75ea.json",
+  "parameterValues" : [ "firefox-83.0" ]
+}

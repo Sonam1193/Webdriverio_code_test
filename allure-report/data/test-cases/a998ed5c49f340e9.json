@@ -1,0 +1,321 @@
+{
+  "uid" : "a998ed5c49f340e9",
+  "name" : "should allow privacy Setting",
+  "fullName" : "Volvo Car Safety| A million more.should allow privacy Setting",
+  "historyId" : "aa373027c886a79965dfe9cf47598bc4",
+  "time" : {
+    "start" : 1607888186906,
+    "stop" : 1607888187790,
+    "duration" : 884
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607888186907,
+        "stop" : 1607888186972,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "336baa15f66025a2",
+        "name" : "Request",
+        "source" : "336baa15f66025a2.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "416c8cb68b9dbdc9",
+        "name" : "Response",
+        "source" : "416c8cb68b9dbdc9.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607888186978,
+        "stop" : 1607888187029,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b55ec07295d73376",
+        "name" : "Request",
+        "source" : "b55ec07295d73376.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "5e59ceb0c5ac8fc0",
+        "name" : "Response",
+        "source" : "5e59ceb0c5ac8fc0.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607888187035,
+        "stop" : 1607888187051,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "71e0cff5fe1ccdaf",
+        "name" : "Request",
+        "source" : "71e0cff5fe1ccdaf.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "5d7ea8ffc91ad6b",
+        "name" : "Response",
+        "source" : "5d7ea8ffc91ad6b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/06c8ba1c-2389-4204-b3f6-0f3432bad53f/click",
+      "time" : {
+        "start" : 1607888187055,
+        "stop" : 1607888187736,
+        "duration" : 681
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1607888187743,
+        "stop" : 1607888187785,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6700aebc9420eabb",
+        "name" : "Response",
+        "source" : "6700aebc9420eabb.json",
+        "type" : "application/json",
+        "size" : 29
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "testMethod",
+    "value" : "should allow privacy Setting"
+  }, {
+    "name" : "package",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-83.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "239879198d02c2c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880787878,
+        "stop" : 1607880788227,
+        "duration" : 349
+      }
+    }, {
+      "uid" : "9ecd4be0e6fe7a0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880455761,
+        "stop" : 1607880456206,
+        "duration" : 445
+      }
+    }, {
+      "uid" : "df664755d7d4d31e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879846895,
+        "stop" : 1607879847243,
+        "duration" : 348
+      }
+    }, {
+      "uid" : "4c27dfd03152c354",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879656670,
+        "stop" : 1607879657237,
+        "duration" : 567
+      }
+    }, {
+      "uid" : "234f1cc3103c0875",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879529552,
+        "stop" : 1607879530025,
+        "duration" : 473
+      }
+    }, {
+      "uid" : "9d9805a744b0114b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879244392,
+        "stop" : 1607879244821,
+        "duration" : 429
+      }
+    }, {
+      "uid" : "da84b3faddf12830",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607873497202,
+        "stop" : 1607873497517,
+        "duration" : 315
+      }
+    }, {
+      "uid" : "c0daa3aeb4f50469",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607873431706,
+        "stop" : 1607873432080,
+        "duration" : 374
+      }
+    }, {
+      "uid" : "4a7ac9d8c674fdd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607872881758,
+        "stop" : 1607872882100,
+        "duration" : 342
+      }
+    }, {
+      "uid" : "67295a94a6371b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607872767256,
+        "stop" : 1607872767654,
+        "duration" : 398
+      }
+    }, {
+      "uid" : "5cd6d0c374da35e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607872604025,
+        "stop" : 1607872604443,
+        "duration" : 418
+      }
+    }, {
+      "uid" : "73e1e9543bd389c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607872495892,
+        "stop" : 1607872496318,
+        "duration" : 426
+      }
+    }, {
+      "uid" : "d269bef4328178b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607871400329,
+        "stop" : 1607871400712,
+        "duration" : 383
+      }
+    }, {
+      "uid" : "7d327152e8abe037",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607871173370,
+        "stop" : 1607871173730,
+        "duration" : 360
+      }
+    }, {
+      "uid" : "cc2a16f7473b79c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607871068695,
+        "stop" : 1607871069074,
+        "duration" : 379
+      }
+    }, {
+      "uid" : "fa5c3781a53ad83d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607871038444,
+        "stop" : 1607871038815,
+        "duration" : 371
+      }
+    }, {
+      "uid" : "f6fbc43117c47bf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607870930816,
+        "stop" : 1607870931231,
+        "duration" : 415
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a998ed5c49f340e9.json",
+  "parameterValues" : [ "firefox-83.0" ]
+}

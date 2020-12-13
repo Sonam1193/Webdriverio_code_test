@@ -1,0 +1,294 @@
+{
+  "uid" : "1a9062353b104da",
+  "name" : "should close navigation panel",
+  "fullName" : "Volvo Car Safety| A million more.should close navigation panel",
+  "historyId" : "1f34aeb02c7dd4aee0cad392b79e2320",
+  "time" : {
+    "start" : 1607888181709,
+    "stop" : 1607888186074,
+    "duration" : 4365
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607888181710,
+        "stop" : 1607888182340,
+        "duration" : 630
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e9b2a66d2c443ba1",
+        "name" : "Request",
+        "source" : "e9b2a66d2c443ba1.json",
+        "type" : "application/json",
+        "size" : 92
+      }, {
+        "uid" : "7ae1fccbd0421c1a",
+        "name" : "Response",
+        "source" : "7ae1fccbd0421c1a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607888182347,
+        "stop" : 1607888182548,
+        "duration" : 201
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2da4c0f8d1973996",
+        "name" : "Request",
+        "source" : "2da4c0f8d1973996.json",
+        "type" : "application/json",
+        "size" : 92
+      }, {
+        "uid" : "646594e78bd38255",
+        "name" : "Response",
+        "source" : "646594e78bd38255.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607888182556,
+        "stop" : 1607888182631,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "219ce755bea8c29a",
+        "name" : "Request",
+        "source" : "219ce755bea8c29a.json",
+        "type" : "application/json",
+        "size" : 92
+      }, {
+        "uid" : "9327eafd31d85fc",
+        "name" : "Response",
+        "source" : "9327eafd31d85fc.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/2e9cca1d-efb8-4fb8-bfe7-081d1968f2a0/click",
+      "time" : {
+        "start" : 1607888182644,
+        "stop" : 1607888183073,
+        "duration" : 429
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "testMethod",
+    "value" : "should close navigation panel"
+  }, {
+    "name" : "package",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "882e01a4f9937a33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880786317,
+        "stop" : 1607880789953,
+        "duration" : 3636
+      }
+    }, {
+      "uid" : "44544d85419eca25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880661766,
+        "stop" : 1607880665444,
+        "duration" : 3678
+      }
+    }, {
+      "uid" : "e7c5a62d4953c561",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880463681,
+        "stop" : 1607880467274,
+        "duration" : 3593
+      }
+    }, {
+      "uid" : "b61ab12e3652460e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880382692,
+        "stop" : 1607880386396,
+        "duration" : 3704
+      }
+    }, {
+      "uid" : "a3878f7bc2fd3588",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n                  (Session info: chrome=88.0.4324.41)",
+      "time" : {
+        "start" : 1607880275543,
+        "stop" : 1607880276050,
+        "duration" : 507
+      }
+    }, {
+      "uid" : "efdf06877efbb655",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880164792,
+        "stop" : 1607880168683,
+        "duration" : 3891
+      }
+    }, {
+      "uid" : "b1ec74e919622c59",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n                  (Session info: chrome=88.0.4324.41)",
+      "time" : {
+        "start" : 1607879966197,
+        "stop" : 1607879966416,
+        "duration" : 219
+      }
+    }, {
+      "uid" : "2bb9cbe4ac9b72b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879844971,
+        "stop" : 1607879848640,
+        "duration" : 3669
+      }
+    }, {
+      "uid" : "b53e50496018dc58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879654248,
+        "stop" : 1607879658038,
+        "duration" : 3790
+      }
+    }, {
+      "uid" : "47fc77523516fad4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879525014,
+        "stop" : 1607879529447,
+        "duration" : 4433
+      }
+    }, {
+      "uid" : "4b31ee5990d57b80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879243284,
+        "stop" : 1607879247757,
+        "duration" : 4473
+      }
+    }, {
+      "uid" : "f1d71d6fbba005f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607871403064,
+        "stop" : 1607871406689,
+        "duration" : 3625
+      }
+    }, {
+      "uid" : "67ec1c191a615296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607871176061,
+        "stop" : 1607871179421,
+        "duration" : 3360
+      }
+    }, {
+      "uid" : "5c52ffbf7e43df4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607871072247,
+        "stop" : 1607871075606,
+        "duration" : 3359
+      }
+    }, {
+      "uid" : "6300ddb53f70b5fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607871041240,
+        "stop" : 1607871044951,
+        "duration" : 3711
+      }
+    }, {
+      "uid" : "12215ccabd68b655",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607870932979,
+        "stop" : 1607870936701,
+        "duration" : 3722
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a9062353b104da.json",
+  "parameterValues" : [ "chrome-88.0.4324.41" ]
+}

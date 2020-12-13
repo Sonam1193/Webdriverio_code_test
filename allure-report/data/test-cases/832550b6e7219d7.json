@@ -1,0 +1,135 @@
+{
+  "uid" : "832550b6e7219d7",
+  "name" : "should click cars navigation button ",
+  "fullName" : "Open the url.should click cars navigation button ",
+  "historyId" : "7605da4142519eca2146e4e5f7d020a6",
+  "time" : {
+    "start" : 1607854102908,
+    "stop" : 1607854106423,
+    "duration" : 3515
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607854102909,
+        "stop" : 1607854102928,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "81b89347abca7901",
+        "name" : "Request",
+        "source" : "81b89347abca7901.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "1ae8497248362496",
+        "name" : "Response",
+        "source" : "1ae8497248362496.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607854102935,
+        "stop" : 1607854102954,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fa97f3db4d1400af",
+        "name" : "Request",
+        "source" : "fa97f3db4d1400af.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "834e93c4de2354f4",
+        "name" : "Response",
+        "source" : "834e93c4de2354f4.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/52a4a46d-df40-4af2-a453-38ce098147e5/click",
+      "time" : {
+        "start" : 1607854102960,
+        "stop" : 1607854103422,
+        "duration" : 462
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open the url"
+  }, {
+    "name" : "testClass",
+    "value" : "Open the url"
+  }, {
+    "name" : "testMethod",
+    "value" : "should click cars navigation button "
+  }, {
+    "name" : "package",
+    "value" : "Open the url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-83.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "832550b6e7219d7.json",
+  "parameterValues" : [ "firefox-83.0" ]
+}

@@ -1,0 +1,307 @@
+{
+  "uid" : "a51617040434aa57",
+  "name" : "should click on watch the story button and video should run",
+  "fullName" : "Open the url.should click on watch the story button and video should run",
+  "historyId" : "d8b16eacc15a949287df93cee9fac800",
+  "time" : {
+    "start" : 1607867778999,
+    "stop" : 1607867787535,
+    "duration" : 8536
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607867779002,
+        "stop" : 1607867779068,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c7f76ab91a5e0296",
+        "name" : "Request",
+        "source" : "c7f76ab91a5e0296.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "c2a1aa7bc28b20d7",
+        "name" : "Response",
+        "source" : "c2a1aa7bc28b20d7.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1607867779073,
+        "stop" : 1607867779111,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "37b2fbdb22bdef77",
+        "name" : "Request",
+        "source" : "37b2fbdb22bdef77.json",
+        "type" : "application/json",
+        "size" : 296
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607867779112,
+        "stop" : 1607867779179,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dc14f5ccdd177a24",
+        "name" : "Request",
+        "source" : "dc14f5ccdd177a24.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "78c630c26e929e68",
+        "name" : "Response",
+        "source" : "78c630c26e929e68.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607867779181,
+        "stop" : 1607867779194,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a28e1074a8447c41",
+        "name" : "Request",
+        "source" : "a28e1074a8447c41.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "723a59ce52a90e99",
+        "name" : "Response",
+        "source" : "723a59ce52a90e99.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607867779197,
+        "stop" : 1607867779208,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1be4b30ba9d7a5bb",
+        "name" : "Request",
+        "source" : "1be4b30ba9d7a5bb.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "e18cb88c37bc7bc6",
+        "name" : "Response",
+        "source" : "e18cb88c37bc7bc6.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/eb32a455-935f-4b48-8972-8686d2b99364/click",
+      "time" : {
+        "start" : 1607867779213,
+        "stop" : 1607867779533,
+        "duration" : 320
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open the url"
+  }, {
+    "name" : "testClass",
+    "value" : "Open the url"
+  }, {
+    "name" : "testMethod",
+    "value" : "should click on watch the story button and video should run"
+  }, {
+    "name" : "package",
+    "value" : "Open the url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-83.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b820f3d9e01dac6b",
+      "status" : "broken",
+      "statusDetails" : "Can't call scrollIntoView on element with selector \"#Video-1 > section > div\" because element wasn't found",
+      "time" : {
+        "start" : 1607867566010,
+        "stop" : 1607867576024,
+        "duration" : 10014
+      }
+    }, {
+      "uid" : "a8b36ce2d7e2fcd0",
+      "status" : "broken",
+      "statusDetails" : "Can't call scrollIntoView on element with selector \"#Video-1 > section > div\" because element wasn't found",
+      "time" : {
+        "start" : 1607867461077,
+        "stop" : 1607867471098,
+        "duration" : 10021
+      }
+    }, {
+      "uid" : "938a68579c3fffef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607867298791,
+        "stop" : 1607867307255,
+        "duration" : 8464
+      }
+    }, {
+      "uid" : "9761398cde5a6457",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'waitForExist' of undefined",
+      "time" : {
+        "start" : 1607866880979,
+        "stop" : 1607866881150,
+        "duration" : 171
+      }
+    }, {
+      "uid" : "a8b10adbee532f2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607866593980,
+        "stop" : 1607866605342,
+        "duration" : 11362
+      }
+    }, {
+      "uid" : "a41ca11981a2b91b",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"bc cb cc cd ce f q\"> is not clickable at point (610,260) because another element <p id=\"alert-box-message\" class=\"banner-content\"> obscures it",
+      "time" : {
+        "start" : 1607866351318,
+        "stop" : 1607866351631,
+        "duration" : 313
+      }
+    }, {
+      "uid" : "8cda52da6ca0c5a0",
+      "status" : "broken",
+      "statusDetails" : "_Base.default.pauseShort is not a function",
+      "time" : {
+        "start" : 1607866245010,
+        "stop" : 1607866245077,
+        "duration" : 67
+      }
+    }, {
+      "uid" : "b78032a1a7c2ad64",
+      "status" : "broken",
+      "statusDetails" : "_Base.default.pauseShort is not a function",
+      "time" : {
+        "start" : 1607864293895,
+        "stop" : 1607864293998,
+        "duration" : 103
+      }
+    }, {
+      "uid" : "8e7e0a6e82096b82",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"bc cb cc cd ce f q\"> is not clickable at point (610,260) because another element <p id=\"alert-box-message\" class=\"banner-content\"> obscures it",
+      "time" : {
+        "start" : 1607864088530,
+        "stop" : 1607864088807,
+        "duration" : 277
+      }
+    }, {
+      "uid" : "b0d41f59c8993bb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607863041807,
+        "stop" : 1607863042682,
+        "duration" : 875
+      }
+    }, {
+      "uid" : "4fa49bdaddef75ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607861819954,
+        "stop" : 1607861820934,
+        "duration" : 980
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a51617040434aa57.json",
+  "parameterValues" : [ "firefox-83.0" ]
+}

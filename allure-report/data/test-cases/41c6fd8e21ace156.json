@@ -1,0 +1,240 @@
+{
+  "uid" : "41c6fd8e21ace156",
+  "name" : "should close cars navigation panel",
+  "fullName" : "Volvo Car Safety| A million more.should close cars navigation panel",
+  "historyId" : "eed5be67448cb01abb6cab6b4dcb00a1",
+  "time" : {
+    "start" : 1607888189394,
+    "stop" : 1607888192834,
+    "duration" : 3440
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607888189406,
+        "stop" : 1607888189611,
+        "duration" : 205
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d8b6a55cabed1ae5",
+        "name" : "Request",
+        "source" : "d8b6a55cabed1ae5.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "9eaf0831274ce6f",
+        "name" : "Response",
+        "source" : "9eaf0831274ce6f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/09c250af-58b1-4ce6-be8c-9d560313481d/click",
+      "time" : {
+        "start" : 1607888189631,
+        "stop" : 1607888189833,
+        "duration" : 202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "testMethod",
+    "value" : "should close cars navigation panel"
+  }, {
+    "name" : "package",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "286bf683f89ce2f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880793183,
+        "stop" : 1607880796351,
+        "duration" : 3168
+      }
+    }, {
+      "uid" : "3c074f3913e57bb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880669142,
+        "stop" : 1607880672447,
+        "duration" : 3305
+      }
+    }, {
+      "uid" : "edded2cffc1ecc52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880470500,
+        "stop" : 1607880473652,
+        "duration" : 3152
+      }
+    }, {
+      "uid" : "4887b3d8984a2a96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880389823,
+        "stop" : 1607880393180,
+        "duration" : 3357
+      }
+    }, {
+      "uid" : "5506b925dfffa0f",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//*[@id=\"vcc-site-nav\"]/div/div[4]/div/button\" because element wasn't found",
+      "time" : {
+        "start" : 1607880280532,
+        "stop" : 1607880290571,
+        "duration" : 10039
+      }
+    }, {
+      "uid" : "2f06f134f33d79e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880172123,
+        "stop" : 1607880175371,
+        "duration" : 3248
+      }
+    }, {
+      "uid" : "ddee412deb753944",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//*[@id=\"vcc-site-nav\"]/div/div[4]/div/button\" because element wasn't found",
+      "time" : {
+        "start" : 1607879971651,
+        "stop" : 1607879981705,
+        "duration" : 10054
+      }
+    }, {
+      "uid" : "50ed733244e19d15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879851844,
+        "stop" : 1607879855200,
+        "duration" : 3356
+      }
+    }, {
+      "uid" : "244bcf44d81a6fde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879661698,
+        "stop" : 1607879665236,
+        "duration" : 3538
+      }
+    }, {
+      "uid" : "2f969e2b9926703e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879533280,
+        "stop" : 1607879536615,
+        "duration" : 3335
+      }
+    }, {
+      "uid" : "be2d0dba309fb763",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879250974,
+        "stop" : 1607879254435,
+        "duration" : 3461
+      }
+    }, {
+      "uid" : "4fdeb7ffc715a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607871409960,
+        "stop" : 1607871413132,
+        "duration" : 3172
+      }
+    }, {
+      "uid" : "c7c7abd9b314a498",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607871182652,
+        "stop" : 1607871185820,
+        "duration" : 3168
+      }
+    }, {
+      "uid" : "3d500f31620f405a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607871078887,
+        "stop" : 1607871082079,
+        "duration" : 3192
+      }
+    }, {
+      "uid" : "14d08cfa5c4d4862",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607871048226,
+        "stop" : 1607871051405,
+        "duration" : 3179
+      }
+    }, {
+      "uid" : "995519fc20782e71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607870939916,
+        "stop" : 1607870943208,
+        "duration" : 3292
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41c6fd8e21ace156.json",
+  "parameterValues" : [ "chrome-88.0.4324.41" ]
+}

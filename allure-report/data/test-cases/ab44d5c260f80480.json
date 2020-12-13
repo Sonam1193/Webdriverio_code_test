@@ -1,0 +1,178 @@
+{
+  "uid" : "ab44d5c260f80480",
+  "name" : "should close cars navigation panel",
+  "fullName" : "Open the url.should close cars navigation panel",
+  "historyId" : "8e5ab28fb2a31af8c2ad954adeab4bf",
+  "time" : {
+    "start" : 1607869716562,
+    "stop" : 1607869719924,
+    "duration" : 3362
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607869716563,
+        "stop" : 1607869716574,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "20f74da098fda75a",
+        "name" : "Request",
+        "source" : "20f74da098fda75a.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "4c80932f23db480d",
+        "name" : "Response",
+        "source" : "4c80932f23db480d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/6b59411f-0f50-4cd5-a5af-ccb6a6eca0d7/click",
+      "time" : {
+        "start" : 1607869716579,
+        "stop" : 1607869716923,
+        "duration" : 344
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open the url"
+  }, {
+    "name" : "testClass",
+    "value" : "Open the url"
+  }, {
+    "name" : "testMethod",
+    "value" : "should close cars navigation panel"
+  }, {
+    "name" : "package",
+    "value" : "Open the url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-83.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8dae841c163224f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607869455020,
+        "stop" : 1607869458441,
+        "duration" : 3421
+      }
+    }, {
+      "uid" : "b26d0cc571c1b710",
+      "status" : "broken",
+      "statusDetails" : "_subscribePage.default.pauseShort is not a function",
+      "time" : {
+        "start" : 1607869349480,
+        "stop" : 1607869350300,
+        "duration" : 820
+      }
+    }, {
+      "uid" : "a39b4c30d3a8433",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//*[@id=\"vcc-site-nav\"]/div/div[4]/div/button\" because element wasn't found",
+      "time" : {
+        "start" : 1607869218869,
+        "stop" : 1607869228900,
+        "duration" : 10031
+      }
+    }, {
+      "uid" : "a38eb2dc1af130ed",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//*[@id=\"vcc-site-nav\"]/div/div[4]/div/button\" because element wasn't found",
+      "time" : {
+        "start" : 1607869054494,
+        "stop" : 1607869064022,
+        "duration" : 9528
+      }
+    }, {
+      "uid" : "a09b088d3c764f80",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//*[@id=\"vcc-site-nav\"]/div/div[4]/div/button\" because element wasn't found",
+      "time" : {
+        "start" : 1607868929756,
+        "stop" : 1607868939785,
+        "duration" : 10029
+      }
+    }, {
+      "uid" : "b448fc6186fe1fe0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607855782119,
+        "stop" : 1607855785494,
+        "duration" : 3375
+      }
+    }, {
+      "uid" : "aea4b055b695dad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607855395979,
+        "stop" : 1607855399405,
+        "duration" : 3426
+      }
+    }, {
+      "uid" : "63b99ade800c6480",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607854106423,
+        "stop" : 1607854110071,
+        "duration" : 3648
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab44d5c260f80480.json",
+  "parameterValues" : [ "firefox-83.0" ]
+}

@@ -1,0 +1,460 @@
+{
+  "uid" : "888c12b7b689c336",
+  "name" : "should verify the hyperlink and navigate to that link page",
+  "fullName" : "Volvo Car Safety.should verify the hyperlink and navigate to that link page",
+  "historyId" : "6a279b1a0892ca22d817075c69635e50",
+  "time" : {
+    "start" : 1607890883790,
+    "stop" : 1607890885581,
+    "duration" : 1791
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607890883791,
+        "stop" : 1607890883812,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a2a40992ae5c21cc",
+        "name" : "Request",
+        "source" : "a2a40992ae5c21cc.json",
+        "type" : "application/json",
+        "size" : 153
+      }, {
+        "uid" : "2c0ef10112b0b40e",
+        "name" : "Response",
+        "source" : "2c0ef10112b0b40e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607890883821,
+        "stop" : 1607890883857,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7552d2a980d3f644",
+        "name" : "Request",
+        "source" : "7552d2a980d3f644.json",
+        "type" : "application/json",
+        "size" : 153
+      }, {
+        "uid" : "f0814d7156bcfae4",
+        "name" : "Response",
+        "source" : "f0814d7156bcfae4.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607890883863,
+        "stop" : 1607890883905,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "63deb63206cb0891",
+        "name" : "Request",
+        "source" : "63deb63206cb0891.json",
+        "type" : "application/json",
+        "size" : 153
+      }, {
+        "uid" : "e73a78b8a07c1727",
+        "name" : "Response",
+        "source" : "e73a78b8a07c1727.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1607890883915,
+        "stop" : 1607890883956,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "be3e3ce803627c35",
+        "name" : "Request",
+        "source" : "be3e3ce803627c35.json",
+        "type" : "application/json",
+        "size" : 296
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607890883957,
+        "stop" : 1607890883992,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "133bdf40204c39b5",
+        "name" : "Request",
+        "source" : "133bdf40204c39b5.json",
+        "type" : "application/json",
+        "size" : 122
+      }, {
+        "uid" : "29795973adcc182e",
+        "name" : "Response",
+        "source" : "29795973adcc182e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/47549171-7be5-4f31-861f-92d3e805a0aa/click",
+      "time" : {
+        "start" : 1607890883994,
+        "stop" : 1607890885511,
+        "duration" : 1517
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1607890885511,
+        "stop" : 1607890885581,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8891fb5ebb2dc5ec",
+        "name" : "Response",
+        "source" : "8891fb5ebb2dc5ec.json",
+        "type" : "application/json",
+        "size" : 25
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo Car Safety"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo Car Safety"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify the hyperlink and navigate to that link page"
+  }, {
+    "name" : "package",
+    "value" : "Volvo Car Safety"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f42d5d31c9af01c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607890845883,
+        "stop" : 1607890847132,
+        "duration" : 1249
+      }
+    }, {
+      "uid" : "32567dc95b651535",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607889725638,
+        "stop" : 1607889730880,
+        "duration" : 5242
+      }
+    }, {
+      "uid" : "56b207a1c255f547",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607888951741,
+        "stop" : 1607888956414,
+        "duration" : 4673
+      }
+    }, {
+      "uid" : "bb0ee027e31d7523",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607888694753,
+        "stop" : 1607888696629,
+        "duration" : 1876
+      }
+    }, {
+      "uid" : "aaa15c628329750a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607888063858,
+        "stop" : 1607888068362,
+        "duration" : 4504
+      }
+    }, {
+      "uid" : "d15c5cd63edc4fa2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607888012563,
+        "stop" : 1607888013848,
+        "duration" : 1285
+      }
+    }, {
+      "uid" : "3b7d451b4e7e2e7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607887881735,
+        "stop" : 1607887883819,
+        "duration" : 2084
+      }
+    }, {
+      "uid" : "647fb01cb8fa3070",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607887545137,
+        "stop" : 1607887551907,
+        "duration" : 6770
+      }
+    }, {
+      "uid" : "3fc77f1c16ae6d82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607886992896,
+        "stop" : 1607886997655,
+        "duration" : 4759
+      }
+    }, {
+      "uid" : "a71c07a30a599e84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607886883818,
+        "stop" : 1607886888988,
+        "duration" : 5170
+      }
+    }, {
+      "uid" : "ee0801e53f77335a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880850125,
+        "stop" : 1607880851704,
+        "duration" : 1579
+      }
+    }, {
+      "uid" : "f121573329c25729",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a data-autoid=\"iconCallouts:cta\" href=\"/intl/v/car-safety\" class=\"a ae ag ba dy dz eg gc gd ge gf gg gh gi gj gk\">...</a> is not clickable at point (609, 199). Other element would receive the click: <p class=\"banner-content\" id=\"alert-box-message\">...</p>\n                  (Session info: chrome=88.0.4324.41)",
+      "time" : {
+        "start" : 1607880676196,
+        "stop" : 1607880681352,
+        "duration" : 5156
+      }
+    }, {
+      "uid" : "55029783664c4d1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880460353,
+        "stop" : 1607880462403,
+        "duration" : 2050
+      }
+    }, {
+      "uid" : "f5aea1d11ea87a8d",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a data-autoid=\"iconCallouts:cta\" href=\"/intl/v/car-safety\" class=\"a ae ag ba dy dz eg gc gd ge gf gg gh gi gj gk\">...</a> is not clickable at point (509, 199). Other element would receive the click: <p class=\"banner-content\" id=\"alert-box-message\">...</p>\n                  (Session info: chrome=88.0.4324.41)",
+      "time" : {
+        "start" : 1607880395578,
+        "stop" : 1607880400037,
+        "duration" : 4459
+      }
+    }, {
+      "uid" : "9978d03486d5ac65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880272742,
+        "stop" : 1607880274681,
+        "duration" : 1939
+      }
+    }, {
+      "uid" : "8a5379e4113e84c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880171969,
+        "stop" : 1607880173500,
+        "duration" : 1531
+      }
+    }, {
+      "uid" : "e1c0c534f6655af8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879976018,
+        "stop" : 1607879978173,
+        "duration" : 2155
+      }
+    }, {
+      "uid" : "b880600f9a5e09a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879813782,
+        "stop" : 1607879815272,
+        "duration" : 1490
+      }
+    }, {
+      "uid" : "21a3e28053c2f8cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879662741,
+        "stop" : 1607879664341,
+        "duration" : 1600
+      }
+    }, {
+      "uid" : "c2558aa28c633e3f",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a data-autoid=\"iconCallouts:cta\" href=\"/intl/v/car-safety\" class=\"a ae ag ba dy dz eg gc gd ge gf gg gh gi gj gk\">...</a> is not clickable at point (609, 199). Other element would receive the click: <p class=\"banner-content\" id=\"alert-box-message\">...</p>\n                  (Session info: chrome=88.0.4324.41)",
+      "time" : {
+        "start" : 1607879538535,
+        "stop" : 1607879545843,
+        "duration" : 7308
+      }
+    }, {
+      "uid" : "1768a02a632bb043",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879248992,
+        "stop" : 1607879251026,
+        "duration" : 2034
+      }
+    }, {
+      "uid" : "5a2002924d729209",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879185503,
+        "stop" : 1607879187754,
+        "duration" : 2251
+      }
+    }, {
+      "uid" : "13c4f4699f0222ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879105371,
+        "stop" : 1607879106858,
+        "duration" : 1487
+      }
+    }, {
+      "uid" : "8ffcaa22f3b16bb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607876908781,
+        "stop" : 1607876910173,
+        "duration" : 1392
+      }
+    }, {
+      "uid" : "ea765d13d4b4e695",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607876163747,
+        "stop" : 1607876165165,
+        "duration" : 1418
+      }
+    }, {
+      "uid" : "982c4310941169a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607875732670,
+        "stop" : 1607875734419,
+        "duration" : 1749
+      }
+    }, {
+      "uid" : "653242e9b879d8e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607874656556,
+        "stop" : 1607874658486,
+        "duration" : 1930
+      }
+    }, {
+      "uid" : "3ed2d42d39539f75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607874617153,
+        "stop" : 1607874618935,
+        "duration" : 1782
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "888c12b7b689c336.json",
+  "parameterValues" : [ "chrome-88.0.4324.41" ]
+}

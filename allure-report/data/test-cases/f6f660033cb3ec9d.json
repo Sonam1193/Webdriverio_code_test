@@ -1,0 +1,285 @@
+{
+  "uid" : "f6f660033cb3ec9d",
+  "name" : "should open the link ",
+  "fullName" : "Open the url.should open the link ",
+  "historyId" : "6cb97d3a270808c49d0a7cd4e2a989d1",
+  "time" : {
+    "start" : 1607869702974,
+    "stop" : 1607869707331,
+    "duration" : 4357
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1607869702981,
+        "stop" : 1607869704236,
+        "duration" : 1255
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6df582452713c8ca",
+        "name" : "Request",
+        "source" : "6df582452713c8ca.json",
+        "type" : "application/json",
+        "size" : 73
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/window/rect",
+      "time" : {
+        "start" : 1607869704236,
+        "stop" : 1607869704327,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b5e2031c5bc4df67",
+        "name" : "Request",
+        "source" : "b5e2031c5bc4df67.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "c6d2a5ac9c42591a",
+        "name" : "Response",
+        "source" : "c6d2a5ac9c42591a.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open the url"
+  }, {
+    "name" : "testClass",
+    "value" : "Open the url"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open the link "
+  }, {
+    "name" : "package",
+    "value" : "Open the url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-83.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7bcaae80714e2963",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607869439198,
+        "stop" : 1607869443682,
+        "duration" : 4484
+      }
+    }, {
+      "uid" : "886db77628744a68",
+      "status" : "broken",
+      "statusDetails" : "_subscribePage.default.pauseShort is not a function",
+      "time" : {
+        "start" : 1607869343870,
+        "stop" : 1607869345499,
+        "duration" : 1629
+      }
+    }, {
+      "uid" : "1ba2f6732531f4b8",
+      "status" : "broken",
+      "statusDetails" : "_subscribePage.default.pauseShort is not a function",
+      "time" : {
+        "start" : 1607869216151,
+        "stop" : 1607869217805,
+        "duration" : 1654
+      }
+    }, {
+      "uid" : "9cfaf21112f2ca25",
+      "status" : "broken",
+      "statusDetails" : "_subscribePage.default.pauseShort is not a function",
+      "time" : {
+        "start" : 1607869052052,
+        "stop" : 1607869053507,
+        "duration" : 1455
+      }
+    }, {
+      "uid" : "381eb5dcd5c0f3b",
+      "status" : "broken",
+      "statusDetails" : "_subscribePage.default.pauseShort is not a function",
+      "time" : {
+        "start" : 1607868927463,
+        "stop" : 1607868929033,
+        "duration" : 1570
+      }
+    }, {
+      "uid" : "2d31fbea1ecbbef3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607867773994,
+        "stop" : 1607867778485,
+        "duration" : 4491
+      }
+    }, {
+      "uid" : "69ac684923be43b9",
+      "status" : "broken",
+      "statusDetails" : "app.openHomepage is not a function",
+      "time" : {
+        "start" : 1607867555950,
+        "stop" : 1607867555957,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "481764e09eb3bfa7",
+      "status" : "broken",
+      "statusDetails" : "app.openHomepage is not a function",
+      "time" : {
+        "start" : 1607867451010,
+        "stop" : 1607867451022,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "9dbf3d2df143d5f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607867293447,
+        "stop" : 1607867298225,
+        "duration" : 4778
+      }
+    }, {
+      "uid" : "c1eba81682718797",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607866876114,
+        "stop" : 1607866880493,
+        "duration" : 4379
+      }
+    }, {
+      "uid" : "8ba5a9c48126415e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607866585684,
+        "stop" : 1607866590568,
+        "duration" : 4884
+      }
+    }, {
+      "uid" : "fc23d87dbf53c41b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607866348961,
+        "stop" : 1607866350473,
+        "duration" : 1512
+      }
+    }, {
+      "uid" : "89edf7a0857676a8",
+      "status" : "broken",
+      "statusDetails" : "_Base.default.pauseShort is not a function",
+      "time" : {
+        "start" : 1607866242752,
+        "stop" : 1607866244394,
+        "duration" : 1642
+      }
+    }, {
+      "uid" : "a1c8597b78b342f7",
+      "status" : "broken",
+      "statusDetails" : "_Base.default.pauseShort is not a function",
+      "time" : {
+        "start" : 1607864291522,
+        "stop" : 1607864293357,
+        "duration" : 1835
+      }
+    }, {
+      "uid" : "2bcaced4b171d629",
+      "status" : "broken",
+      "statusDetails" : "_Base.default.pauseShort is not a function",
+      "time" : {
+        "start" : 1607864085813,
+        "stop" : 1607864087983,
+        "duration" : 2170
+      }
+    }, {
+      "uid" : "c6a8f5dc3462bbcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607863038211,
+        "stop" : 1607863041021,
+        "duration" : 2810
+      }
+    }, {
+      "uid" : "24a0d6f461b425f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607861816242,
+        "stop" : 1607861819152,
+        "duration" : 2910
+      }
+    }, {
+      "uid" : "f18fa54c03e5c45a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607855755248,
+        "stop" : 1607855761422,
+        "duration" : 6174
+      }
+    }, {
+      "uid" : "8f54832afbdfa97b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607855370569,
+        "stop" : 1607855375294,
+        "duration" : 4725
+      }
+    }, {
+      "uid" : "1698fa29acac73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607854078949,
+        "stop" : 1607854085329,
+        "duration" : 6380
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f6f660033cb3ec9d.json",
+  "parameterValues" : [ "firefox-83.0" ]
+}

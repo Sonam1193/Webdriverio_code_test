@@ -1,0 +1,242 @@
+{
+  "uid" : "d5f8dd75e8574729",
+  "name" : "should close cars navigation panel",
+  "fullName" : "Open the url.should close cars navigation panel",
+  "historyId" : "532fca3363bc8e20cc58c61fe7c5e575",
+  "time" : {
+    "start" : 1607869717772,
+    "stop" : 1607869720922,
+    "duration" : 3150
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607869717772,
+        "stop" : 1607869717788,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd491a71b9bf7413",
+        "name" : "Request",
+        "source" : "fd491a71b9bf7413.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "23bbe27023908579",
+        "name" : "Response",
+        "source" : "23bbe27023908579.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/f1b7c138-3c8b-4ba2-ae98-ce491c157bbf/click",
+      "time" : {
+        "start" : 1607869717790,
+        "stop" : 1607869717921,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open the url"
+  }, {
+    "name" : "testClass",
+    "value" : "Open the url"
+  }, {
+    "name" : "testMethod",
+    "value" : "should close cars navigation panel"
+  }, {
+    "name" : "package",
+    "value" : "Open the url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d81400966713cbab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607869456333,
+        "stop" : 1607869459496,
+        "duration" : 3163
+      }
+    }, {
+      "uid" : "d9788a610834c7d",
+      "status" : "broken",
+      "statusDetails" : "_subscribePage.default.pauseShort is not a function",
+      "time" : {
+        "start" : 1607869351218,
+        "stop" : 1607869352502,
+        "duration" : 1284
+      }
+    }, {
+      "uid" : "60f50782f0b8d7",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//*[@id=\"vcc-site-nav\"]/div/div[4]/div/button\" because element wasn't found",
+      "time" : {
+        "start" : 1607869228337,
+        "stop" : 1607869238377,
+        "duration" : 10040
+      }
+    }, {
+      "uid" : "591913c926cba96a",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//*[@id=\"vcc-site-nav\"]/div/div[4]/div/button\" because element wasn't found",
+      "time" : {
+        "start" : 1607869064133,
+        "stop" : 1607869074205,
+        "duration" : 10072
+      }
+    }, {
+      "uid" : "facf550e5d1a7c7e",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//*[@id=\"vcc-site-nav\"]/div/div[4]/div/button\" because element wasn't found",
+      "time" : {
+        "start" : 1607868939299,
+        "stop" : 1607868949326,
+        "duration" : 10027
+      }
+    }, {
+      "uid" : "96dc9243cfcbb9df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607858281682,
+        "stop" : 1607858284863,
+        "duration" : 3181
+      }
+    }, {
+      "uid" : "e0d7449956c4d545",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607858149382,
+        "stop" : 1607858152577,
+        "duration" : 3195
+      }
+    }, {
+      "uid" : "f80cd13632052efa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607857389582,
+        "stop" : 1607857392779,
+        "duration" : 3197
+      }
+    }, {
+      "uid" : "4d04053f9441e227",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607857256809,
+        "stop" : 1607857260010,
+        "duration" : 3201
+      }
+    }, {
+      "uid" : "5bc90a85aedcc408",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607856628538,
+        "stop" : 1607856631748,
+        "duration" : 3210
+      }
+    }, {
+      "uid" : "7b7f06366230976d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607856409905,
+        "stop" : 1607856413124,
+        "duration" : 3219
+      }
+    }, {
+      "uid" : "aff1b030f538317b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607855934944,
+        "stop" : 1607855938177,
+        "duration" : 3233
+      }
+    }, {
+      "uid" : "8cbf12f5bf16031c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607855780392,
+        "stop" : 1607855783667,
+        "duration" : 3275
+      }
+    }, {
+      "uid" : "f2f8f2a18650f49b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607855394709,
+        "stop" : 1607855398063,
+        "duration" : 3354
+      }
+    }, {
+      "uid" : "ce8353b3658677ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607855333237,
+        "stop" : 1607855336442,
+        "duration" : 3205
+      }
+    }, {
+      "uid" : "2448ca66b15394cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607854109507,
+        "stop" : 1607854112838,
+        "duration" : 3331
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d5f8dd75e8574729.json",
+  "parameterValues" : [ "chrome-88.0.4324.41" ]
+}

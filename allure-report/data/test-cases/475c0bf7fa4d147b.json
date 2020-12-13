@@ -1,0 +1,135 @@
+{
+  "uid" : "475c0bf7fa4d147b",
+  "name" : "should open right side Navigation Item ",
+  "fullName" : "Open the url.should open right side Navigation Item ",
+  "historyId" : "e128b04a0c9a6fde12a75d192156a1e8",
+  "time" : {
+    "start" : 1607855385651,
+    "stop" : 1607855389159,
+    "duration" : 3508
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607855385652,
+        "stop" : 1607855385677,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9c21652fdfa82b83",
+        "name" : "Request",
+        "source" : "9c21652fdfa82b83.json",
+        "type" : "application/json",
+        "size" : 95
+      }, {
+        "uid" : "8a2c1dd5b507d7c9",
+        "name" : "Response",
+        "source" : "8a2c1dd5b507d7c9.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607855385686,
+        "stop" : 1607855385720,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a435cc672dd33cf",
+        "name" : "Request",
+        "source" : "a435cc672dd33cf.json",
+        "type" : "application/json",
+        "size" : 95
+      }, {
+        "uid" : "c1e1a52a9dc0af29",
+        "name" : "Response",
+        "source" : "c1e1a52a9dc0af29.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/3810d85b-00cc-49cc-953f-f142411c9bd3/click",
+      "time" : {
+        "start" : 1607855385739,
+        "stop" : 1607855386158,
+        "duration" : 419
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Open the url"
+  }, {
+    "name" : "testClass",
+    "value" : "Open the url"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open right side Navigation Item "
+  }, {
+    "name" : "package",
+    "value" : "Open the url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-83.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "475c0bf7fa4d147b.json",
+  "parameterValues" : [ "firefox-83.0" ]
+}

@@ -1,0 +1,369 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1607869343369' stop='1607869352503'>
+    <name>Open the url</name>
+    <title>Open the url</title>
+    <test-cases>
+        <test-case start='1607869343370' status='broken' stop='1607869347304'>
+            <name>should open the link </name>
+            <title>should open the link </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.41'/>
+            </parameters>
+            <steps>
+                <step start='1607869343376' status='passed' stop='1607869345069'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='55264523-46e6-476c-8934-7c2dc9411acb-attachment.json' type='application/json' size='73'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607869345069' status='passed' stop='1607869347270'>
+                    <name>POST /session/:sessionId/window/rect</name>
+                    <title>POST /session/:sessionId/window/rect</title>
+                    <attachments>
+                        <attachment title='Request' source='28a08db4-522c-4164-9639-5708ab54c50e-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='1c88e761-f2ba-4158-a7d2-046ce56dc1c9-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>_subscribePage.default.pauseShort is not a function</message>
+                <stack-trace>TypeError: _subscribePage.default.pauseShort is not a function
+                    at Context.&lt;anonymous> (C:\Users\Sonu\webdriverio-Code_Test\test\specs\/subscribe.js:8:23)
+                    at Context.executeSync (C:\Users\Sonu\webdriverio-Code_Test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Sonu\webdriverio-Code_Test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1607869347305' status='passed' stop='1607869348299'>
+            <name>should click on Cookie Settings button and verify the page</name>
+            <title>should click on Cookie Settings button and verify the page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.41'/>
+            </parameters>
+            <steps>
+                <step start='1607869347308' status='passed' stop='1607869347419'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='11a2d100-9e88-4ef9-a4ea-a2c9c64841a6-attachment.json' type='application/json' size='86'/>
+                        <attachment title='Response' source='974b45d1-41cb-405d-adb0-cdbc0723ce75-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607869347449' status='passed' stop='1607869347833'>
+                    <name>POST /session/:sessionId/element/588da428-8bf1-4186-a2fa-674c06342bbb/click</name>
+                    <title>POST /session/:sessionId/element/588da428-8bf1-4186-a2fa-674c06342bbb/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1607869347836' status='passed' stop='1607869347910'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='43c10ed6-b9b5-4f6f-bbf3-b733eea4d68b-attachment.json' type='application/json' size='73'/>
+                        <attachment title='Response' source='3e10132e-f0b0-49b6-a71a-07941017a82f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607869347924' status='passed' stop='1607869348138'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='aea3b5b7-becd-4067-b87d-b7f9f49c73c6-attachment.json' type='application/json' size='73'/>
+                        <attachment title='Response' source='85d377ae-7c98-4083-bd17-bc51ce76402b-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607869348153' status='passed' stop='1607869348245'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='69df4573-5fc2-49c9-9504-516153a395b1-attachment.json' type='application/json' size='73'/>
+                        <attachment title='Response' source='e32ae96d-1838-481f-b9aa-b04564ffbb58-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607869348264' status='passed' stop='1607869348295'>
+                    <name>GET /session/:sessionId/element/55fa1c0d-9c47-4e91-8cf9-b05c733e50f8/text</name>
+                    <title>GET /session/:sessionId/element/55fa1c0d-9c47-4e91-8cf9-b05c733e50f8/text</title>
+                    <attachments>
+                        <attachment title='Response' source='da03e603-eeb8-4e67-8909-dffa55526243-attachment.json' type='application/json' size='27'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1607869348300' status='passed' stop='1607869348513'>
+            <name>should allow privacy Setting</name>
+            <title>should allow privacy Setting</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.41'/>
+            </parameters>
+            <steps>
+                <step start='1607869348301' status='passed' stop='1607869348332'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2145fb70-40ea-4175-840e-6827cc5736ca-attachment.json' type='application/json' size='91'/>
+                        <attachment title='Response' source='d4d35707-a76c-4292-80e1-32b26540ad66-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607869348337' status='passed' stop='1607869348358'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='3045d938-5553-455b-8c6b-e5a1974ddd90-attachment.json' type='application/json' size='91'/>
+                        <attachment title='Response' source='677937c6-bb33-4aca-bf2b-9d5951f52987-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607869348360' status='passed' stop='1607869348376'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='606e02df-060d-4016-8884-dde3ff9d3dce-attachment.json' type='application/json' size='91'/>
+                        <attachment title='Response' source='f2c921bd-3026-49b2-b3b3-06247b4195ce-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607869348381' status='passed' stop='1607869348494'>
+                    <name>POST /session/:sessionId/element/c801965f-7835-4a17-868d-f130defae56c/click</name>
+                    <title>POST /session/:sessionId/element/c801965f-7835-4a17-868d-f130defae56c/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1607869348496' status='passed' stop='1607869348513'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='e4d09a96-fac5-44b7-afdd-dcae7d8dde67-attachment.json' type='application/json' size='29'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1607869348513' status='broken' stop='1607869349286'>
+            <name>should open right side Navigation Item </name>
+            <title>should open right side Navigation Item </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.41'/>
+            </parameters>
+            <steps>
+                <step start='1607869348514' status='passed' stop='1607869348547'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5fe09f78-f718-4437-9655-e33fb63bfa1b-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='6498e3ac-e5ef-4648-8e4e-3d777f9ccc6e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607869348554' status='passed' stop='1607869348594'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='95cfbe71-ddd8-4349-b77c-5ace456e4140-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='3c90c31f-99ac-4959-a9bb-0f79078c9e1b-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607869348600' status='passed' stop='1607869348613'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ddd9901a-82b0-4880-9108-c0705592f5e5-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='d93e9698-e52a-4fa5-a521-43703155aabf-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607869348615' status='passed' stop='1607869349283'>
+                    <name>POST /session/:sessionId/element/0ccd3e96-f5bc-4d27-91d9-4b3122a58faa/click</name>
+                    <title>POST /session/:sessionId/element/0ccd3e96-f5bc-4d27-91d9-4b3122a58faa/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>_subscribePage.default.pauseShort is not a function</message>
+                <stack-trace>TypeError: _subscribePage.default.pauseShort is not a function
+                    at Context.&lt;anonymous> (C:\Users\Sonu\webdriverio-Code_Test\test\specs\/subscribe.js:32:23)
+                    at Context.executeSync (C:\Users\Sonu\webdriverio-Code_Test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Sonu\webdriverio-Code_Test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1607869349288' status='broken' stop='1607869350727'>
+            <name>should close navigation panel</name>
+            <title>should close navigation panel</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.41'/>
+            </parameters>
+            <steps>
+                <step start='1607869349292' status='passed' stop='1607869350096'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='758d8d34-804f-430b-9532-60db3ca99a75-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='52d77088-1323-4939-9634-845d05592d1f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607869350100' status='passed' stop='1607869350133'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='40b4c13c-acff-40a3-9b70-76d2dd1daf01-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='59e07b4f-c01a-451e-a4c6-4157decda3d7-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607869350139' status='passed' stop='1607869350168'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='57905532-6fcf-4203-8902-dc134281d840-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='063f8f27-fb5b-410f-a9bf-bb2891ecffb5-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607869350174' status='passed' stop='1607869350726'>
+                    <name>POST /session/:sessionId/element/f74540dc-87aa-4925-8630-f42b4b9ef3a0/click</name>
+                    <title>POST /session/:sessionId/element/f74540dc-87aa-4925-8630-f42b4b9ef3a0/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>_subscribePage.default.pauseShort is not a function</message>
+                <stack-trace>TypeError: _subscribePage.default.pauseShort is not a function
+                    at Context.&lt;anonymous> (C:\Users\Sonu\webdriverio-Code_Test\test\specs\/subscribe.js:39:23)
+                    at Context.executeSync (C:\Users\Sonu\webdriverio-Code_Test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Sonu\webdriverio-Code_Test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1607869350727' status='broken' stop='1607869351218'>
+            <name>should click cars navigation button </name>
+            <title>should click cars navigation button </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.41'/>
+            </parameters>
+            <steps>
+                <step start='1607869350728' status='passed' stop='1607869350758'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5ecb2313-2fba-44a0-8bf2-d348f8d2e963-attachment.json' type='application/json' size='84'/>
+                        <attachment title='Response' source='774a320e-426d-4d03-8083-941acd1e01b7-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607869350761' status='passed' stop='1607869350801'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='364b4203-663d-4a7e-b0b4-3576f0dcda69-attachment.json' type='application/json' size='84'/>
+                        <attachment title='Response' source='e3b9c008-c8f4-44d6-a12c-7c23fc1ac67a-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607869350806' status='passed' stop='1607869350869'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5107c92e-2ca4-4286-854d-493d7833c1db-attachment.json' type='application/json' size='84'/>
+                        <attachment title='Response' source='a6d8adc6-9a82-4b6d-becf-3762b0eaa471-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607869350875' status='passed' stop='1607869351216'>
+                    <name>POST /session/:sessionId/element/7567b76b-8db4-4802-b20a-928123574816/click</name>
+                    <title>POST /session/:sessionId/element/7567b76b-8db4-4802-b20a-928123574816/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>_subscribePage.default.pauseShort is not a function</message>
+                <stack-trace>TypeError: _subscribePage.default.pauseShort is not a function
+                    at Context.&lt;anonymous> (C:\Users\Sonu\webdriverio-Code_Test\test\specs\/subscribe.js:46:23)
+                    at Context.executeSync (C:\Users\Sonu\webdriverio-Code_Test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Sonu\webdriverio-Code_Test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1607869351218' status='broken' stop='1607869352502'>
+            <name>should close cars navigation panel</name>
+            <title>should close cars navigation panel</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.41'/>
+            </parameters>
+            <steps>
+                <step start='1607869351219' status='passed' stop='1607869351258'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='85c4976f-68a1-42aa-aa9a-f97fb24f5879-attachment.json' type='application/json' size='84'/>
+                        <attachment title='Response' source='a4912e8a-03ea-468a-8a12-36182ea176c2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607869351259' status='passed' stop='1607869352496'>
+                    <name>POST /session/:sessionId/element/62a6dfeb-1be7-44de-ad88-5972367a9aaa/click</name>
+                    <title>POST /session/:sessionId/element/62a6dfeb-1be7-44de-ad88-5972367a9aaa/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>_subscribePage.default.pauseShort is not a function</message>
+                <stack-trace>TypeError: _subscribePage.default.pauseShort is not a function
+                    at Context.&lt;anonymous> (C:\Users\Sonu\webdriverio-Code_Test\test\specs\/subscribe.js:53:23)
+                    at Context.executeSync (C:\Users\Sonu\webdriverio-Code_Test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Sonu\webdriverio-Code_Test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,343 @@
+{
+  "uid" : "3bc23ef748b8e37c",
+  "name" : "should scroll into Decades of Innovation Learn More and Click on it ",
+  "fullName" : "Volvo Car Safety| A million more.should scroll into Decades of Innovation Learn More and Click on it ",
+  "historyId" : "4dd681f8f6b85b7180c6cffcb20aa03a",
+  "time" : {
+    "start" : 1607888192834,
+    "stop" : 1607888199065,
+    "duration" : 6231
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607888192835,
+        "stop" : 1607888192928,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7610a7b8703d70fb",
+        "name" : "Request",
+        "source" : "7610a7b8703d70fb.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "ef26fed04c16030",
+        "name" : "Response",
+        "source" : "ef26fed04c16030.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1607888192946,
+        "stop" : 1607888193118,
+        "duration" : 172
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f196a4fa81ec584",
+        "name" : "Request",
+        "source" : "7f196a4fa81ec584.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "528d2845de89645f",
+        "name" : "Response",
+        "source" : "528d2845de89645f.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607888193153,
+        "stop" : 1607888193231,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "738fdd0f91ae815d",
+        "name" : "Request",
+        "source" : "738fdd0f91ae815d.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "9e6d311963135703",
+        "name" : "Response",
+        "source" : "9e6d311963135703.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1607888193247,
+        "stop" : 1607888193280,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e61b6b5fe22d7f28",
+        "name" : "Request",
+        "source" : "e61b6b5fe22d7f28.json",
+        "type" : "application/json",
+        "size" : 296
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1607888196290,
+        "stop" : 1607888196379,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8edc510b4c1cb01c",
+        "name" : "Request",
+        "source" : "8edc510b4c1cb01c.json",
+        "type" : "application/json",
+        "size" : 110
+      }, {
+        "uid" : "433384bec32bec79",
+        "name" : "Response",
+        "source" : "433384bec32bec79.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/33d6fadb-3c8c-485b-b570-7a44fed67b77/click",
+      "time" : {
+        "start" : 1607888196394,
+        "stop" : 1607888199065,
+        "duration" : 2671
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "testMethod",
+    "value" : "should scroll into Decades of Innovation Learn More and Click on it "
+  }, {
+    "name" : "package",
+    "value" : "Volvo Car Safety| A million more"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "aefda6d1c9fbefab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880796351,
+        "stop" : 1607880800553,
+        "duration" : 4202
+      }
+    }, {
+      "uid" : "a9218946094a5549",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880672447,
+        "stop" : 1607880676628,
+        "duration" : 4181
+      }
+    }, {
+      "uid" : "829eb7af4e8b64f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880473652,
+        "stop" : 1607880477758,
+        "duration" : 4106
+      }
+    }, {
+      "uid" : "d932e9deaef50463",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880393180,
+        "stop" : 1607880397649,
+        "duration" : 4469
+      }
+    }, {
+      "uid" : "ac751179cd0c06a6",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <div class=\"a\">...</div> is not clickable at point (202, 273). Other element would receive the click: <div class=\"_SiteNav-a _SiteNav-b _SiteNav-c _SiteNav-d _SiteNav-g _SiteNav-gv _SiteNav-gw _SiteNav-h _SiteNav-i _SiteNav-j _SiteNav-k SiteNav-Backdrop\"></div>\n                  (Session info: chrome=88.0.4324.41)",
+      "time" : {
+        "start" : 1607880290571,
+        "stop" : 1607880297880,
+        "duration" : 7309
+      }
+    }, {
+      "uid" : "3985c13353742e3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607880175371,
+        "stop" : 1607880179819,
+        "duration" : 4448
+      }
+    }, {
+      "uid" : "873fb1d81899a27b",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <div class=\"a\">...</div> is not clickable at point (202, 273). Other element would receive the click: <div class=\"_SiteNav-a _SiteNav-b _SiteNav-c _SiteNav-d _SiteNav-g _SiteNav-gv _SiteNav-gw _SiteNav-h _SiteNav-i _SiteNav-j _SiteNav-k SiteNav-Backdrop\"></div>\n                  (Session info: chrome=88.0.4324.41)",
+      "time" : {
+        "start" : 1607879981706,
+        "stop" : 1607879989038,
+        "duration" : 7332
+      }
+    }, {
+      "uid" : "f0aa1afb834ccbd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879855200,
+        "stop" : 1607879859617,
+        "duration" : 4417
+      }
+    }, {
+      "uid" : "b323a4880943f87c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879665237,
+        "stop" : 1607879669683,
+        "duration" : 4446
+      }
+    }, {
+      "uid" : "5db5b27fa277cd9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879536616,
+        "stop" : 1607879540916,
+        "duration" : 4300
+      }
+    }, {
+      "uid" : "e954353602ea74a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607879254435,
+        "stop" : 1607879258891,
+        "duration" : 4456
+      }
+    }, {
+      "uid" : "c24c5d571d945319",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607871413132,
+        "stop" : 1607871417819,
+        "duration" : 4687
+      }
+    }, {
+      "uid" : "e7d121fa99f49261",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <div class=\"a\">...</div> is not clickable at point (202, 24). Other element would receive the click: <div class=\"_SiteNav-ab _SiteNav-ac _SiteNav-ae _SiteNav-q _SiteNav-t _SiteNav-u _SiteNav-v\">...</div>\n                  (Session info: chrome=88.0.4324.41)",
+      "time" : {
+        "start" : 1607871185820,
+        "stop" : 1607871193183,
+        "duration" : 7363
+      }
+    }, {
+      "uid" : "bcf27a4ab33e2fbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607871082080,
+        "stop" : 1607871083664,
+        "duration" : 1584
+      }
+    }, {
+      "uid" : "93a9bb3cbd28bd55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607871051405,
+        "stop" : 1607871053425,
+        "duration" : 2020
+      }
+    }, {
+      "uid" : "bc0bcaa33f5830",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607870943209,
+        "stop" : 1607870948175,
+        "duration" : 4966
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3bc23ef748b8e37c.json",
+  "parameterValues" : [ "chrome-88.0.4324.41" ]
+}
